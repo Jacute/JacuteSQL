@@ -1,0 +1,8 @@
+{
+    "name": "my_db",
+    "tuples_limit": 20,
+    "structure": {
+        "beer": ["name", "style", "alcohol", "ibu", "blg"],
+        "cars": ["model", "maker", "type", "fueltype"]
+    }
+}

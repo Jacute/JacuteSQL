@@ -1,0 +1,3 @@
+storage_path: "./storage"
+schema_path: "./schema.json"
+log_path: "./JacuteSQL.log"
