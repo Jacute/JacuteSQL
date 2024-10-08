@@ -8,10 +8,13 @@ import (
 	"log/slog"
 	"os"
 	"os/signal"
+	"runtime"
 	"syscall"
 )
 
 func main() {
+	runtime.GOMAXPROCS(runtime.NumCPU()) // for use all processor cores
+
 	cfg := config.MustLoad()
 	log := logger.SetupPrettyLogger(cfg)
 	st := storage.New(cfg.StoragePath, cfg.LoadedSchema, log)
@@ -24,8 +27,12 @@ func main() {
 	)
 	st.Create()
 
-	log.Log.Info("Starting app")
-	application := app.New(log, st)
+	log.Log.Info(
+		"Starting app",
+		slog.Int("port", cfg.Port),
+		slog.String("env", cfg.Env),
+	)
+	application := app.New(log.Log, st, cfg.ConnTL, cfg.Port)
 	go application.MustRun()
 
 	stop := make(chan os.Signal, 1)

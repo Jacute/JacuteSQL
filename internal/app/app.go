@@ -1,25 +1,35 @@
 package app
 
 import (
-	"JacuteSQL/internal/logger"
 	"JacuteSQL/internal/storage"
-	"bufio"
 	"fmt"
-	"os"
+	"log/slog"
+	"net"
+	"sync"
+	"time"
+
+	"github.com/jacute/prettylogger"
 )
 
 type App struct {
-	log     *logger.Logger
+	log     *slog.Logger
 	storage *storage.Storage
+	port    int
+	connTL  time.Duration
+	ln      net.Listener
 }
 
 func New(
-	log *logger.Logger,
+	log *slog.Logger,
 	storage *storage.Storage,
+	connTL time.Duration,
+	port int,
 ) *App {
 	return &App{
 		log:     log,
 		storage: storage,
+		connTL:  connTL,
+		port:    port,
 	}
 }
 
@@ -32,29 +42,71 @@ func (a *App) MustRun() {
 func (a *App) Run() error {
 	const op = "app.Run"
 
-	input := bufio.NewReader(os.Stdin)
-	output := bufio.NewWriter(os.Stdout)
+	var err error
+	a.ln, err = net.Listen("tcp", fmt.Sprintf(":%d", a.port))
+	if err != nil {
+		return err
+	}
+	defer a.ln.Close()
+
+	fmt.Println("Listening on port", a.port)
+
+	var wg sync.WaitGroup
+
 	for {
-		fmt.Fprint(output, ">> ")
-		output.Flush()
-
-		str, err := input.ReadString('\n')
+		conn, err := a.ln.Accept()
 		if err != nil {
-			return fmt.Errorf("%s: %w", op, err)
-		}
-
-		cmdOutput, err := a.storage.Exec(str)
-		if err != nil {
-			fmt.Fprintln(output, err.Error())
+			a.log.Info(
+				"error accepting connection",
+				slog.String("op", op),
+				prettylogger.Err(err),
+			)
 			continue
 		}
-		fmt.Fprintln(output, "command executed successfully")
-		if cmdOutput != "" {
-			fmt.Fprintln(output, "output:\n"+cmdOutput)
-		}
+
+		wg.Add(1)
+		go a.handleConnection(conn, &wg)
 	}
 }
 
-func (a *App) Stop() {
-	// TODO: Create graceful shutdown for db
+func (a *App) Stop() { // Graceful shutdown
+	a.ln.Close()
+}
+
+func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
+	defer wg.Done()
+	defer conn.Close()
+	conn.SetReadDeadline(time.Now().Add(a.connTL))
+
+	const op = "app.handleConnection"
+
+	inputBuffer := make([]byte, 1024)
+	for {
+		conn.Write([]byte(">> "))
+
+		n, err := conn.Read(inputBuffer)
+		if err != nil {
+			a.log.Info(
+				"connection close",
+				slog.String("op", op),
+				prettylogger.Err(err),
+				slog.String("addr", conn.RemoteAddr().String()),
+			)
+			return fmt.Errorf("%s: %w", op, err)
+		}
+
+		conn.SetReadDeadline(time.Now().Add(a.connTL))
+
+		received := string(inputBuffer[:n])
+
+		cmdOutput, err := a.storage.Exec(received)
+		if err != nil {
+			conn.Write([]byte(err.Error() + "\n"))
+			continue
+		}
+		conn.Write([]byte("command executed successfully\n"))
+		if cmdOutput != "" {
+			conn.Write([]byte("output:\n" + cmdOutput))
+		}
+	}
 }

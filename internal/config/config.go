@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"flag"
 	"os"
+	"time"
 
 	"github.com/ilyakaznacheev/cleanenv"
 )
@@ -16,9 +17,12 @@ type Schema struct {
 }
 
 type Config struct {
-	StoragePath  string `yaml:"storage_path" env-required:"true"`
-	SchemaPath   string `yaml:"schema_path" env-required:"true"`
-	LogPath      string `yaml:"log_path" env-required:"true"`
+	Env          string        `yaml:"env" env-default:"prod"`
+	StoragePath  string        `yaml:"storage_path" env-required:"true"`
+	SchemaPath   string        `yaml:"schema_path" env-required:"true"`
+	LogPath      string        `yaml:"log_path" env-required:"true"`
+	Port         int           `yaml:"port" env-default:"7432"`
+	ConnTL       time.Duration `yaml:"connTL" env-default:"10s"`
 	LoadedSchema *Schema
 }
 

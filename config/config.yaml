@@ -1,3 +1,6 @@
+env: "local"
 storage_path: "./storage"
 schema_path: "./schema.json"
 log_path: "./JacuteSQL.log"
+port: 7432
+connTL: 30s
