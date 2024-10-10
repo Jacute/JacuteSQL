@@ -4,7 +4,8 @@ import (
 	"JacuteSQL/internal/data_structures/mymap"
 	"JacuteSQL/internal/lib/csv"
 	"JacuteSQL/internal/lib/utils"
-	"JacuteSQL/tests/suite"
+	"JacuteSQL/internal/storage"
+	suite "JacuteSQL/tests/suite/storage"
 	"fmt"
 	"os"
 	"path"
@@ -17,16 +18,16 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func FillTableBeer(t *testing.T, st *suite.Suite, rowCount int) {
+func FillTableBeer(t *testing.T, storage *storage.Storage, rowCount int) {
 	for i := 0; i < rowCount; i++ {
-		err := st.Storage.Insert("beer", []string{fakeit.BeerName(), fakeit.BeerStyle(), fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()})
+		err := storage.Insert("beer", []string{fakeit.BeerName(), fakeit.BeerStyle(), fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()})
 		require.Nil(t, err)
 	}
 }
 
-func FillTableCars(t *testing.T, st *suite.Suite, rowCount int) {
+func FillTableCars(t *testing.T, storage *storage.Storage, rowCount int) {
 	for i := 0; i < rowCount; i++ {
-		err := st.Storage.Insert("cars", []string{fakeit.CarModel(), fakeit.CarMaker(), "random_type" + fakeit.HexColor(), "random_fueltype" + fakeit.HexColor()})
+		err := storage.Insert("cars", []string{fakeit.CarModel(), fakeit.CarMaker(), "random_type" + fakeit.HexColor(), "random_fueltype" + fakeit.HexColor()})
 		require.Nil(t, err)
 	}
 }
@@ -40,11 +41,11 @@ func TestInsertHappyPath(t *testing.T) {
 	}{
 		{
 			tableName: "beer",
-			rowCount:  25,
+			rowCount:  500,
 		},
 		{
 			tableName: "cars",
-			rowCount:  35,
+			rowCount:  500,
 		},
 	}
 
@@ -53,9 +54,9 @@ func TestInsertHappyPath(t *testing.T) {
 			tablepath := st.Storage.TablePathes.Get(c.tableName).(string)
 
 			if c.tableName == "beer" {
-				FillTableBeer(t, st, c.rowCount)
+				FillTableBeer(t, st.Storage, c.rowCount)
 			} else if c.tableName == "cars" {
-				FillTableCars(t, st, c.rowCount)
+				FillTableCars(t, st.Storage, c.rowCount)
 			} else {
 				t.Errorf("incorrect table name")
 			}

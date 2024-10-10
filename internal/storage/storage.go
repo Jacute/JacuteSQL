@@ -6,7 +6,6 @@ import (
 	"JacuteSQL/internal/data_structures/mysl"
 	"JacuteSQL/internal/lib/csv"
 	"JacuteSQL/internal/lib/utils"
-	"JacuteSQL/internal/logger"
 	"errors"
 	"fmt"
 	"log/slog"
@@ -16,6 +15,7 @@ import (
 	"slices"
 	"strconv"
 	"strings"
+	"sync"
 
 	"github.com/jacute/prettylogger"
 )
@@ -36,19 +36,27 @@ var (
 )
 
 type Storage struct {
-	StoragePath string
-	Schema      *config.Schema
-	TablePathes *mymap.CustomMap
-	log         *logger.Logger
+	StoragePath        string
+	Schema             *config.Schema
+	TablePathes        *mymap.CustomMap
+	tableBlockingMutex *mymap.CustomMap
+	log                *slog.Logger
 }
 
 // New creates a new Storage
-func New(storagePath string, schema *config.Schema, log *logger.Logger) *Storage {
+func New(storagePath string, schema *config.Schema, log *slog.Logger) *Storage {
+	tableBlockingMutex := mymap.New()
+	tableNames := schema.Tables.Keys()
+	for i := 0; i < tableNames.Len(); i++ {
+		tableBlockingMutex.Add(tableNames.Get(i), &sync.Mutex{})
+	}
+
 	return &Storage{
-		StoragePath: storagePath,
-		Schema:      schema,
-		log:         log,
-		TablePathes: mymap.New(),
+		StoragePath:        storagePath,
+		Schema:             schema,
+		log:                log,
+		TablePathes:        mymap.New(),
+		tableBlockingMutex: tableBlockingMutex,
 	}
 }
 
@@ -68,7 +76,12 @@ func (s *Storage) Exec(str string) (string, error) {
 		for i := range tablesSplitted {
 			tablesSplitted[i] = strings.TrimSpace(tablesSplitted[i])
 		}
+
+		if err := s.blockTables(tablesSplitted); err != nil {
+			return "", fmt.Errorf("error: " + err.Error())
+		}
 		rows, err := s.Select(fieldsSplitted, tablesSplitted, "")
+		s.unBlockTables(tablesSplitted)
 		if err != nil {
 			return "", fmt.Errorf("error: " + err.Error())
 		}
@@ -96,10 +109,9 @@ func (s *Storage) Exec(str string) (string, error) {
 			tablesSplitted[i] = strings.TrimSpace(tablesSplitted[i])
 		}
 
-		if blockedTable, isBlock := s.isBlockTables(tablesSplitted); isBlock {
-			return "", fmt.Errorf("table %s is blocked", blockedTable)
+		if err := s.blockTables(tablesSplitted); err != nil {
+			return "", fmt.Errorf("error: " + err.Error())
 		}
-		s.blockTables(tablesSplitted)
 		rows, err := s.Select(fieldsSplitted, tablesSplitted, condition)
 		if err != nil {
 			return "", fmt.Errorf("error: " + err.Error())
@@ -128,10 +140,10 @@ func (s *Storage) Exec(str string) (string, error) {
 				return "", fmt.Errorf("error: Values can't contain ',' symbol")
 			}
 		}
-		if s.isBlock(tableName) {
-			return "", fmt.Errorf("table %s is blocked", tableName)
+
+		if err := s.block(tableName); err != nil {
+			return "", fmt.Errorf("error: " + err.Error())
 		}
-		s.block(tableName)
 		err := s.Insert(tableName, valuesSplitted)
 		if err != nil {
 			if errors.Is(err, ErrIncorrectNumberOfColumns) {
@@ -156,7 +168,9 @@ func (s *Storage) Exec(str string) (string, error) {
 				return "", fmt.Errorf("table %s is blocked", tableName)
 			}
 
-			s.block(tableName)
+			if err := s.block(tableName); err != nil {
+				return "", fmt.Errorf("error: " + err.Error())
+			}
 			err := s.Delete(tableName)
 			if err != nil {
 				return "", fmt.Errorf("error: " + err.Error())
@@ -174,11 +188,9 @@ func (s *Storage) Exec(str string) (string, error) {
 		}
 		count := 0
 		for _, tableName := range tablesSplitted {
-			if s.isBlock(tableName) {
-				return "", fmt.Errorf("table %s is blocked", tableName)
+			if err := s.block(tableName); err != nil {
+				return "", fmt.Errorf("error: " + err.Error())
 			}
-
-			s.block(tableName)
 			var err error
 			err, count = s.DeleteWhere(tableName, condition)
 			if err != nil {
@@ -198,7 +210,7 @@ func (s *Storage) Exec(str string) (string, error) {
 // Insert adds a new row to the table with given values
 func (s *Storage) Insert(table string, values []string) error {
 	const op = "storage.Insert"
-	log := s.log.Log.With(
+	log := s.log.With(
 		slog.String("op", op),
 		slog.String("table", table),
 		slog.Any("values", values),
@@ -311,7 +323,7 @@ func (s *Storage) Insert(table string, values []string) error {
 
 func (s *Storage) Select(fields []string, tables []string, condition string) (*mysl.MySl[*mysl.MySl[string]], error) {
 	const op = "storage.Select"
-	log := s.log.Log.With(
+	log := s.log.With(
 		slog.String("op", op),
 		slog.Any("fields", fields),
 		slog.Any("tables", tables),
@@ -534,7 +546,7 @@ func combine(table1, table2 *mysl.MySl[*mymap.CustomMap]) *mysl.MySl[*mymap.Cust
 
 func (s *Storage) getAllColumns(table string) (*mysl.MySl[*mymap.CustomMap], error) {
 	const op = "storage.getAllColumns"
-	log := s.log.Log.With(
+	log := s.log.With(
 		slog.String("op", op),
 	)
 
@@ -578,7 +590,7 @@ func (s *Storage) Delete(tableName string) error {
 
 func (s *Storage) DeleteWhere(tableName string, condition string) (error, int) {
 	const op = "storage.deleteWhere"
-	log := s.log.Log.With(
+	log := s.log.With(
 		slog.String("op", op),
 		slog.String("tableName", tableName),
 		slog.String("condition", condition),

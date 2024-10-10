@@ -17,7 +17,7 @@ func main() {
 
 	cfg := config.MustLoad()
 	log := logger.SetupPrettyLogger(cfg)
-	st := storage.New(cfg.StoragePath, cfg.LoadedSchema, log)
+	st := storage.New(cfg.StoragePath, cfg.LoadedSchema, log.Log)
 
 	log.Log.Info(
 		"Making storage",

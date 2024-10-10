@@ -1,6 +1,7 @@
-package suite
+package app_suite
 
 import (
+	"JacuteSQL/internal/app"
 	"JacuteSQL/internal/config"
 	"JacuteSQL/internal/logger"
 	"JacuteSQL/internal/storage"
@@ -11,13 +12,14 @@ import (
 	"github.com/jacute/prettylogger"
 )
 
-type Suite struct {
+type ApplicationSuite struct {
 	*testing.T
 	Cfg     *config.Config
 	Storage *storage.Storage
+	App     *app.App
 }
 
-func New(t *testing.T) *Suite {
+func New(t *testing.T) *ApplicationSuite {
 	// t.Helper()
 	// t.Parallel()
 
@@ -28,15 +30,16 @@ func New(t *testing.T) *Suite {
 
 	cfg := config.MustLoadByPath(v)
 	discardLogger := &logger.Logger{
-		Log:    slog.New(prettylogger.NewDiscardHandler()),
-		Writer: nil,
+		Log: slog.New(prettylogger.NewDiscardHandler()),
 	}
-	st := storage.New(cfg.StoragePath, cfg.LoadedSchema, discardLogger)
+	st := storage.New(cfg.StoragePath, cfg.LoadedSchema, discardLogger.Log)
 	st.Destroy()
 	st.Create()
-	return &Suite{
+	application := app.New(discardLogger.Log, st, cfg.ConnTL, cfg.Port)
+	return &ApplicationSuite{
 		T:       t,
 		Cfg:     cfg,
 		Storage: st,
+		App:     application,
 	}
 }

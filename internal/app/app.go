@@ -70,7 +70,15 @@ func (a *App) Run() error {
 }
 
 func (a *App) Stop() { // Graceful shutdown
-	a.ln.Close()
+	err := a.ln.Close()
+	if err != nil {
+		a.log.Error(
+			"error closing listener",
+			slog.String("op", "app.Stop"),
+			prettylogger.Err(err),
+		)
+	}
+	a.storage.UnBlockAllTables()
 }
 
 func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {

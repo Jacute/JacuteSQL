@@ -46,7 +46,7 @@ func (s *Storage) Create() {
 // CreateTable adds a new table to the storage
 func (s *Storage) CreateTable(tableName string, tablePath string, columns []string) {
 	const op = "storage.CreateTable"
-	log := s.log.Log.With(
+	log := s.log.With(
 		slog.String("op", op),
 		slog.String("tablename", tableName),
 	)
@@ -67,62 +67,68 @@ func (s *Storage) CreateTable(tableName string, tablePath string, columns []stri
 
 	header := strings.Join(columns, ",") + "\n"
 	firstSheetPath := path.Join(tablePath, "1.csv")
-	err := utils.WriteFile(firstSheetPath, header)
-	if err != nil {
-		if errors.Is(err, utils.ErrFileExists) {
-			log.Info("Sheet already exists", slog.String("sheetpath", firstSheetPath))
-		} else if errors.Is(err, utils.ErrWriteFile) {
-			log.Warn(
-				"Can't write columns",
-				slog.String("sheetpath", firstSheetPath),
-				slog.Any("columns", columns),
-			)
-		} else {
-			log.Error(
-				"Can't create sheet",
-				prettylogger.Err(err),
-				slog.String("sheetpath", firstSheetPath),
-			)
+	if utils.FileExists(firstSheetPath) {
+		log.Info("Sheet already exists", slog.String("sheetpath", firstSheetPath))
+	} else {
+		err := utils.WriteFile(firstSheetPath, header)
+		if err != nil {
+			if errors.Is(err, utils.ErrWriteFile) {
+				log.Warn(
+					"Can't write columns",
+					slog.String("sheetpath", firstSheetPath),
+					slog.Any("columns", columns),
+				)
+			} else {
+				log.Error(
+					"Can't create sheet",
+					prettylogger.Err(err),
+					slog.String("sheetpath", firstSheetPath),
+				)
+			}
 		}
 	}
 
 	pkPath := path.Join(tablePath, tableName+"_pk_sequence")
-	err = utils.WriteFile(pkPath, "1")
-	if err != nil {
-		if errors.Is(err, utils.ErrFileExists) {
-			log.Info("pk file already exists", slog.String("pkpath", pkPath))
-		} else if errors.Is(err, utils.ErrWriteFile) {
-			log.Warn(
-				"Can't write to pk file",
-				slog.String("pkpath", pkPath),
-				slog.Any("columns", columns),
-			)
-		} else {
-			log.Error(
-				"Can't create pk file",
-				prettylogger.Err(err),
-				slog.String("pkpath", pkPath),
-			)
+	if utils.FileExists(pkPath) {
+		log.Info("pk file already exists", slog.String("pkpath", pkPath))
+	} else {
+		err := utils.WriteFile(pkPath, "1")
+		if err != nil {
+			if errors.Is(err, utils.ErrWriteFile) {
+				log.Warn(
+					"Can't write to pk file",
+					slog.String("pkpath", pkPath),
+					slog.Any("columns", columns),
+				)
+			} else {
+				log.Error(
+					"Can't create pk file",
+					prettylogger.Err(err),
+					slog.String("pkpath", pkPath),
+				)
+			}
 		}
 	}
 
 	lockPath := path.Join(tablePath, tableName+"_lock")
-	err = utils.WriteFile(lockPath, "0")
-	if err != nil {
-		if errors.Is(err, utils.ErrFileExists) {
-			log.Info("lock file already exists", slog.String("lockpath", lockPath))
-		} else if errors.Is(err, utils.ErrWriteFile) {
-			log.Warn(
-				"Can't write to lock file",
-				slog.String("lockpath", lockPath),
-				slog.Any("columns", columns),
-			)
-		} else {
-			log.Error(
-				"Can't create pk file",
-				prettylogger.Err(err),
-				slog.String("lockpath", lockPath),
-			)
+	if utils.FileExists(lockPath) {
+		log.Info("lock file already exists", slog.String("lockpath", lockPath))
+	} else {
+		err := utils.WriteFile(lockPath, "0")
+		if err != nil {
+			if errors.Is(err, utils.ErrWriteFile) {
+				log.Warn(
+					"Can't write to lock file",
+					slog.String("lockpath", lockPath),
+					slog.Any("columns", columns),
+				)
+			} else {
+				log.Error(
+					"Can't create pk file",
+					prettylogger.Err(err),
+					slog.String("lockpath", lockPath),
+				)
+			}
 		}
 	}
 }

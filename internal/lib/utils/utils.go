@@ -7,8 +7,7 @@ import (
 )
 
 var (
-	ErrFileExists = errors.New("file already exists")
-	ErrWriteFile  = errors.New("can't write file")
+	ErrWriteFile = errors.New("can't write file")
 )
 
 var (
@@ -16,16 +15,17 @@ var (
 )
 
 func WriteFile(filePath string, header string) error {
-	if _, err := os.Stat(filePath); err == nil {
-		return ErrFileExists
-	}
-
 	err := os.WriteFile(filePath, []byte(header), 0644)
 	if err != nil {
 		return ErrWriteFile
 	}
 
 	return nil
+}
+
+func FileExists(filePath string) bool {
+	_, err := os.Stat(filePath)
+	return err == nil
 }
 
 func GetSheetsFromFiles(tablePath string) ([]string, error) {
