@@ -74,7 +74,7 @@ func TestBlocks(t *testing.T) {
 
 			carsResult := handleRequest(t, id, "SELECT cars.model FROM cars")
 			resultLines = append(resultLines, carsResult)
-		}(maxGoroutines + i)
+		}(maxGoroutines/2 + i)
 	}
 	wg.Wait()
 

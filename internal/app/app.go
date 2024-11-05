@@ -84,7 +84,9 @@ func (a *App) Stop() { // Graceful shutdown
 func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
 	defer wg.Done()
 	defer conn.Close()
-	conn.SetReadDeadline(time.Now().Add(a.connTL))
+	if a.connTL > 0 {
+		conn.SetReadDeadline(time.Now().Add(a.connTL))
+	}
 
 	const op = "app.handleConnection"
 
@@ -103,7 +105,9 @@ func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
 			return fmt.Errorf("%s: %w", op, err)
 		}
 
-		conn.SetReadDeadline(time.Now().Add(a.connTL))
+		if a.connTL > 0 {
+			conn.SetReadDeadline(time.Now().Add(a.connTL))
+		}
 
 		received := string(inputBuffer[:n])
 
