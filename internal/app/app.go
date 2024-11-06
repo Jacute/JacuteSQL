@@ -111,6 +111,10 @@ func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
 
 		received := string(inputBuffer[:n])
 
+		if received == "exit\n" {
+			break
+		}
+
 		cmdOutput, err := a.storage.Exec(received)
 		if err != nil {
 			conn.Write([]byte(err.Error() + "\n"))
@@ -121,4 +125,6 @@ func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
 			conn.Write([]byte("output:\n" + cmdOutput))
 		}
 	}
+
+	return nil
 }
