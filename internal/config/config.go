@@ -22,7 +22,7 @@ type Config struct {
 	SchemaPath   string        `yaml:"schema_path" env-required:"true"`
 	LogPath      string        `yaml:"log_path" env-required:"true"`
 	Port         int           `yaml:"port" env-default:"7432"`
-	ConnTL       time.Duration `yaml:"connTL" env-default:"10s"`
+	ConnTL       time.Duration `yaml:"connTL" env-default:"0s"`
 	LoadedSchema *Schema
 }
 
