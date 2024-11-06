@@ -1,6 +1,6 @@
 # JacuteSQL
 
-Простейшая СУБД с поддержкой синтаксиса SQL.
+Простейшая СУБД с неполноценной поддержкой синтаксиса SQL.
 
 ## Особенности
 
@@ -11,6 +11,20 @@
 - СУБД запускается в docker контейнере.
 - Все данные хранятся в storage/<название_бд>/<название_таблицы>/<номер_листа>.csv. При достижении ограничения tuples_limit создаётся новый лист. SELECT считывает данные из БД постранично.
 - Для обработки данных из БД используются самописные структуры.
+
+## Запуск
+
+```bash
+docker compose up --build -d
+```
+
+## Примеры команд
+- `INSERT INTO table1 VALUES ('val1', 'val2', 'val3');`
+- `SELECT table1.col1, table1.col2 FROM table1;`
+- `SELECT table1.col1, table2.col2 FROM table1, table2;`
+- `SELECT table1.col1 FROM table1 WHERE table1.col2 = 'val';`
+- `DELETE FROM table1, table2;`
+- `DELETE FROM table1 WHERE table1.col1 = 'val';`
 
 ## Структура проекта
 
@@ -52,14 +66,6 @@
 <название_таблицы>_pk_sequence для хранения последнего идентификатора строки.
 
 <название_таблицы>_lock для блокировки таблицы.
-
-## Установка и запуск
-
-### Запуск приложения
-
-```bash
-docker compose up --build -d
-```
 
 ## Конфигурация
 
