@@ -78,7 +78,6 @@ func (a *App) Stop() { // Graceful shutdown
 			prettylogger.Err(err),
 		)
 	}
-	a.storage.UnBlockAllTables()
 }
 
 func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {

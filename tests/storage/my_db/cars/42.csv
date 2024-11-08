@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+821,Escalade Esv Awd,Farboud,random_type#rluftr,random_fueltype#429i4q
+822,Scion Xb,Mazda,random_type#wz0gy1,random_fueltype#46jly8
+823,Murano Fwd,Ferrari,random_type#a25a69,random_fueltype#dq6pv5
+824,Toyota Tacoma 4wd,Lamborghini,random_type#9a9a1f,random_fueltype#9682a0
+825,Montana Sv6 Awd,Mitsubishi,random_type#vhgpi0,random_fueltype#m8f9k2
+826,Vue Fwd,Rover,random_type#ev7o0f,random_fueltype#kad5n8
+827,Gx 470,Lexus,random_type#5951gh,random_fueltype#b63yps
+828,Q45,Mercedes-Benz,random_type#r03y0f,random_fueltype#55j05g
+829,Escalade 2wd,Lexus,random_type#9n90qn,random_fueltype#5uu4ru
+830," Z4 M Roadster",Bugatti,random_type#68eewu,random_fueltype#2c7f80
+831,C1500 Silverado 2wd,Martini,random_type#rn9y4o,random_fueltype#g6e190
+832,Cls500,Nissan,random_type#k0p9qq,random_fueltype#526474
+833,Frontier V6-2wd,Honda,random_type#10dh95,random_fueltype#8ur9qk
+834,R350,Smart,random_type#ymevh0,random_fueltype#4h2rn2
+835,C280 4matic,Pontiac,random_type#83sf94,random_fueltype#l244cz
+836,Prius,Mazda,random_type#l590o6,random_fueltype#8klfix
+837,V12 Vanquish S,Hyundai,random_type#sh1ain,random_fueltype#p4z9ag
+838,Viper Convertible,Ferrari,random_type#90qo7f,random_fueltype#58z188
+839,Aerio Sx,Volkswagen,random_type#xr7fr3,random_fueltype#43719i
+840,Viper Convertible,Pontiac,random_type#gz5uf6,random_fueltype#e076o0

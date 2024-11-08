@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1021,Sebring 4-dr,Mitsubishi,random_type#h754tm,random_fueltype#7jn263
+1022,4runner 4wd,Toyota,random_type#4lt874,random_fueltype#7k7601
+1023,F150 Pickup 4wd,Alfa Romeo,random_type#7079xu,random_fueltype#44k567
+1024,Vue Fwd,Chrysler,random_type#o8qw36,random_fueltype#ji4l86
+1025," X5 4.8is",Citroen,random_type#iy52o2,random_fueltype#6i3g5j
+1026,S4 Avant,Tesla,random_type#d469j3,random_fueltype#s84xf8
+1027,S4 Avant,Lancia,random_type#o21zy8,random_fueltype#550966
+1028,Cl65 Amg,McLaren,random_type#slttuq,random_fueltype#6fj523
+1029,S2000,Mercedes,random_type#zylah2,random_fueltype#oy0393
+1030,E55 Amg,Dino,random_type#2wktg6,random_fueltype#963f73
+1031,Slk280,Ligier,random_type#8656gt,random_fueltype#t803d8
+1032,Rendezvous Awd,Volvo,random_type#d3296z,random_fueltype#t9981j
+1033,Pilot 2wd,Koenigsegg,random_type#ut086a,random_fueltype#r1a5rd
+1034,Cayenne Turbo,Benz,random_type#40os4z,random_fueltype#ru8y32
+1035,Sienna 2wd,Lada,random_type#ey7zt8,random_fueltype#3k8o1f
+1036,Cayenne S,Fiat,random_type#sk55v9,random_fueltype#44lp1f
+1037,Sts,Datsun,random_type#1246b2,random_fueltype#37v4m9
+1038,Highlander 4wd,Ligier,random_type#vhspp5,random_fueltype#d9jube
+1039,Escalade 2wd,Farboud,random_type#w9f0m1,random_fueltype#y85k05
+1040,Range Rover,Cadillac,random_type#b20c29,random_fueltype#831842

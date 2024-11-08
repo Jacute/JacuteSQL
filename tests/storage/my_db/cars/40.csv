@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+781,Murano Awd,McLaren,random_type#41h6ps,random_fueltype#4n5jqp
+782,Cls500,Ferrari,random_type#4c1937,random_fueltype#3lxcu7
+783,Colorado 4wd,Cadillac,random_type#ra54sf,random_fueltype#iyaa6i
+784,Colorado Crew Cab 4wd,Lexus,random_type#occs1w,random_fueltype#3c52o3
+785,Lancer Sportback,Lincoln,random_type#rwu1lh,random_fueltype#az190y
+786,E150 Club Wagon,Datsun,random_type#7ih7v1,random_fueltype#3fr88i
+787,Escape 4wd,Lada,random_type#d7rr6k,random_fueltype#2x3uml
+788,Xlr,Hyundai,random_type#h92e44,random_fueltype#7ic17f
+789,E150 Econoline 2wd,Benz,random_type#p5j8t2,random_fueltype#oc2w0n
+790,Sportage 2wd,Pontiac,random_type#xs178x,random_fueltype#7b9217
+791,Range Rover Sport,Lada,random_type#o9p8gu,random_fueltype#547ixs
+792,Lx 470,Honda,random_type#rglpgg,random_fueltype#77sp6h
+793,Quattroporte,Peugeot,random_type#r55t8y,random_fueltype#85ko61
+794,Focus  Fwd,Rover,random_type#mn9o59,random_fueltype#ysr8gk
+795,Expedition 2wd,Fiat,random_type#ml492m,random_fueltype#t3tnd6
+796,Navigator 2wd,Tesla,random_type#cn2oj1,random_fueltype#18hjf4
+797,Tl,Renault,random_type#9t2mf2,random_fueltype#964yl2
+798,Cayenne,Hummer,random_type#27625e,random_fueltype#8e90h9
+799,Gt 2wd,Renault,random_type#29m0m7,random_fueltype#o5gz46
+800,Slk350,Spyker,random_type#3c03bl,random_fueltype#x998fh

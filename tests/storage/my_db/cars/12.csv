@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+221,R500,Cadillac,random_type#plc421,random_fueltype#132k24
+222,Terraza Fwd,Lada,random_type#8916e9,random_fueltype#834s8v
+223,Mazda 3,Pontiac,random_type#6muhrg,random_fueltype#pp1n47
+224,Rx 400h 4wd,KIA,random_type#47ka4o,random_fueltype#64psu1
+225,K1500 Tahoe 4wd,Ford,random_type#603h72,random_fueltype#v6g1j0
+226,Tucson 4wd,Ferrari,random_type#qnjnrw,random_fueltype#y1jv82
+227,Clk350,Smart,random_type#4cj6qk,random_fueltype#315grk
+228,Malibu,Pontiac,random_type#z6vu0i,random_fueltype#5kjpq5
+229,Cayenne S,Mini,random_type#m3sddg,random_fueltype#j2a3ic
+230," 650ci",Benz,random_type#otpsgo,random_fueltype#dg161t
+231,Ml500,Hyundai,random_type#hk7734,random_fueltype#qw63q9
+232,Escalade Esv Awd,Citroen,random_type#jn42t7,random_fueltype#5tw822
+233,S350,Dacia,random_type#g9zo4g,random_fueltype#l9c28d
+234,Vdp Lwb,Skoda,random_type#zxeltj,random_fueltype#49992o
+235,E320 Cdi,Toyota,random_type#gjx9y1,random_fueltype#y3fx0r
+236,A6 Avant Quattro,Datsun,random_type#dro9xy,random_fueltype#952629
+237,Murano Awd,Toyota,random_type#266hak,random_fueltype#87g7he
+238,Is 250 Awd,Rolls-Royce,random_type#4zgpa1,random_fueltype#3f6028
+239,Highlander Hybrid 4wd,Daewoo,random_type#58429g,random_fueltype#3l47xt
+240,S60 Awd,Subaru,random_type#41hli8,random_fueltype#jz2i2z

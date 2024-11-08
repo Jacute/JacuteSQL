@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+141,Monterey Wagon Fwd,Spyker,random_type#yqa03z,random_fueltype#upqwdi
+142,New Beetle,Nissan,random_type#3jhzu1,random_fueltype#tz08c6
+143," 650ci Convertible",Chevrolet,random_type#fpau4t,random_fueltype#rhi5et
+144,C55 Amg,Vauxhall,random_type#9rl2b0,random_fueltype#alk7wy
+145," 325i",Jeep,random_type#2isq1t,random_fueltype#53267d
+146,E500,Volkswagen,random_type#9244e6,random_fueltype#y79dg1
+147,Tl,Porsche,random_type#7op6y5,random_fueltype#y83c85
+148,Colorado 4wd,Jeep,random_type#5v4s1c,random_fueltype#64b0g5
+149,Ferrari 612 Scaglietti,Seat,random_type#3r36au,random_fueltype#h717x2
+150,Pilot 2wd,Subaru,random_type#18qe21,random_fueltype#z6a688
+151,Sl500,Seat,random_type#g24rv1,random_fueltype#5h6i4p
+152,Lx 470,Dino,random_type#2z5247,random_fueltype#fux187
+153,Vue Fwd,Daihatsu,random_type#689chq,random_fueltype#f88h56
+154,Rio,Bugatti,random_type#h6l1yz,random_fueltype#s53426
+155,S60 Fwd,De Lorean,random_type#3qtztt,random_fueltype#p4yn8z
+156,Santafe 2wd,Mazda,random_type#m8ob6c,random_fueltype#2hda44
+157,Montana Sv6 Awd,Cadillac,random_type#878y8c,random_fueltype#80u9nx
+158," X5 4.8is",Bugatti,random_type#27z75u,random_fueltype#v2398r
+159,Xc 70 Awd,DAF,random_type#5zf835,random_fueltype#121l63
+160,Baja Awd,Bugatti,random_type#mikp0p,random_fueltype#67ck76

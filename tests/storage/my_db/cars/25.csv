@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+481,Quest,Mercedes-Benz,random_type#20j62q,random_fueltype#2d823j
+482,Gs 300 4wd,Martini,random_type#83s5e2,random_fueltype#3zb81q
+483," 530xi Sport Wagon",Volvo,random_type#759wsh,random_fueltype#5lai58
+484," 330xi",Toyota,random_type#vdut0v,random_fueltype#r96yvf
+485,C1500 Silverado 2wd,Dino,random_type#477hi3,random_fueltype#v74vo8
+486,Explorer 4wd,Bugatti,random_type#uf5p8x,random_fueltype#959134
+487,G1500/2500 Chevy Van 2wd,Porsche,random_type#6835br,random_fueltype#hik255
+488,Rabbit,Tesla,random_type#5168c1,random_fueltype#nb7gt3
+489,Colorado 2wd,Citroen,random_type#9v613k,random_fueltype#3u6k12
+490,S-type 3.0 Litre,Rover,random_type#i87hgi,random_fueltype#gx5k1p
+491,Envoy Xl 4wd,DAF,random_type#99741e,random_fueltype#pjee02
+492,Zephyr,Lincoln,random_type#y4sbb0,random_fueltype#u9rcok
+493,Xlr,Seat,random_type#2j093u,random_fueltype#2e128p
+494,Forenza Wagon,Subaru,random_type#1s1f5i,random_fueltype#9p1185
+495," M3 Convertible",Vauxhall,random_type#otj9pn,random_fueltype#908m0e
+496," 525xi",Mini,random_type#j3gjjc,random_fueltype#9xg3u1
+497,A8 L,Skoda,random_type#66g08v,random_fueltype#1928ma
+498,Baja Awd,Noble,random_type#8ojl7i,random_fueltype#6g7hfj
+499,Colorado Crew Cab 2wd,Maybach,random_type#w318i8,random_fueltype#elk73i
+500,Five Hundred Awd,Martini,random_type#6d81w5,random_fueltype#7o742d

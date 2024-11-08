@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+161,Town & Country 2wd,Subaru,random_type#h9qv1b,random_fueltype#3bu68s
+162,F430,Jaguar,random_type#iuqan2,random_fueltype#vpj310
+163,Colorado Cab Chassis Inc 2wd,Farboud,random_type#5qa867,random_fueltype#b6797r
+164,Sienna 4wd,Bentley,random_type#ge34ps,random_fueltype#611774
+165,4runner 2wd,Dacia,random_type#wkd2ya,random_fueltype#7ub1bw
+166,Endeavor 2wd,Datsun,random_type#877i2h,random_fueltype#dsye7a
+167,A4 Cabriolet Quattro,Dino,random_type#825o84,random_fueltype#m9v0yr
+168,Caravan 2wd,Seat,random_type#5kc3v6,random_fueltype#n79rq5
+169,Q45 Sport,Dodge,random_type#feo05u,random_fueltype#l39al1
+170,Rendezvous Fwd,Fiat,random_type#uhixo0,random_fueltype#5tm3n8
+171,Outback Wagon Awd,BMW,random_type#xz2i95,random_fueltype#xqw885
+172," 330ci Convertible",Lincoln,random_type#3265n0,random_fueltype#uk027v
+173,Lancer Sportback,Mitsubishi,random_type#739f04,random_fueltype#54nz0x
+174,Titan 2wd,Toyota,random_type#b933v6,random_fueltype#6x395j
+175,Escalade Esv Awd,Lexus,random_type#48h973,random_fueltype#380wrz
+176,C280,Lada,random_type#kmdds2,random_fueltype#g9o1i6
+177,Highlander Hybrid 4wd,Lancia,random_type#f4r72b,random_fueltype#n8109l
+178,Gx 470,Martini,random_type#890la6,random_fueltype#7120c6
+179,Pacifica Awd,McLaren,random_type#1fnk8q,random_fueltype#3hf1mw
+180,Escape Fwd,Volvo,random_type#jt1xi2,random_fueltype#5p42b4

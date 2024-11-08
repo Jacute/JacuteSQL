@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+41,V50 Awd,Chrysler,random_type#8oxo1q,random_fueltype#5ls63p
+42," Z4 M Roadster",Mercedes-Benz,random_type#18h232,random_fueltype#9y3x20
+43,Thunderbird,Lada,random_type#88p0du,random_fueltype#b3h2b9
+44,Mazda 6,Peugeot,random_type#61obbl,random_fueltype#vitqrq
+45,Rendezvous Awd,Subaru,random_type#t25px4,random_fueltype#489u9z
+46,C70 Convertible,Noble,random_type#bqxpv4,random_fueltype#od6kyr
+47,Cts,Lada,random_type#8d7gwo,random_fueltype#y2n4ev
+48,Altima,Mitsubishi,random_type#20a4lt,random_fueltype#g70n4v
+49,K15 Silverado Hybrid 4wd,Lamborghini,random_type#57oos8,random_fueltype#2e1nt5
+50,Escape Hybrid Fwd,Ferrari,random_type#57wtwf,random_fueltype#u3f3os
+51,Element 2wd,Martini,random_type#3rj3hf,random_fueltype#vtbwhl
+52,Spectra(ld),Porsche,random_type#3ctzo6,random_fueltype#ve4203
+53,Grand Vitara Xl-7 4wd,McLaren,random_type#y7mq28,random_fueltype#ap0bg0
+54,F150 Pickup 2wd,Hummer,random_type#r37p19,random_fueltype#56p820
+55," X5",Lada,random_type#67qvx2,random_fueltype#6h8u5q
+56,Fx35 Rwd,Hyundai,random_type#50o9cq,random_fueltype#3j8y53
+57,New Beetle,Citroen,random_type#xydw0k,random_fueltype#69480w
+58,C15 Silverado Hybrid 2wd,Mazda,random_type#exggar,random_fueltype#11139m
+59,Tucson 2wd,Rolls-Royce,random_type#1jf35o,random_fueltype#r47168
+60,Tsx,Opel,random_type#43k54u,random_fueltype#320rf7

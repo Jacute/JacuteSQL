@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+721,Q45,Hyundai,random_type#jz42ed,random_fueltype#33963v
+722,H3 4wd,Lotus,random_type#sj379m,random_fueltype#v1t1l8
+723,G1500/2500 Chevy Van 2wd,Ford,random_type#t931q8,random_fueltype#8s1h3g
+724,M35,Daewoo,random_type#ik6646,random_fueltype#57s2y4
+725,Impreza Awd,Martini,random_type#78fh56,random_fueltype#28wp75
+726,Sonata,Lexus,random_type#c075o2,random_fueltype#44ov1s
+727,Sorento 4wd,Bugatti,random_type#286s76,random_fueltype#78t407
+728,Grand Cherokee 4wd,Dacia,random_type#so60w8,random_fueltype#27xl20
+729,K1500 Tahoe 4wd,Farboud,random_type#r0cp6i,random_fueltype#547pos
+730,Dakota Pickup 4wd,Suzuki,random_type#c56cy4,random_fueltype#i54995
+731,Ls,Aston Martin,random_type#h504nc,random_fueltype#ku8550
+732,V70 R Awd,McLaren,random_type#95jn51,random_fueltype#2jv5dg
+733,Montana Sv6 Awd,Peugeot,random_type#c0w8e0,random_fueltype#6b2369
+734,Clk350 (cabriolet),Nissan,random_type#7qmb96,random_fueltype#ce4053
+735,Sl600,BMW,random_type#hi7d65,random_fueltype#89b8tf
+736,Highlander Hybrid 4wd,Mercedes,random_type#afyxlh,random_fueltype#2w0l43
+737,Impala,Bentley,random_type#myv9c0,random_fueltype#cr0r33
+738,Accord Hybrid,Nissan,random_type#y53m8g,random_fueltype#2o3cz8
+739,Rav4 2wd,Rover,random_type#7j4av0,random_fueltype#h814os
+740,Golf,Vauxhall,random_type#58m822,random_fueltype#m8fohs

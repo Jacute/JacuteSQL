@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+621,Ml500,Mazda,random_type#641h96,random_fueltype#1l19sk
+622,G15/25chev Van 2wd Conv,Honda,random_type#hgn4rm,random_fueltype#5d002u
+623," 525i",BMW,random_type#74538c,random_fueltype#1wi2g4
+624,Corolla,Tesla,random_type#5l3r2d,random_fueltype#ifcu19
+625,F150 Ffv  2wd,Koenigsegg,random_type#4g97d6,random_fueltype#yjr947
+626," Z4 M Roadster",Opel,random_type#mg7139,random_fueltype#t55ki3
+627,Titan 2wd,Benz,random_type#6u73eh,random_fueltype#wzy369
+628,Ferrari F141,Mitsubishi,random_type#vwd279,random_fueltype#chj97t
+629,Sonata,Mazda,random_type#pztk64,random_fueltype#t83h8n
+630,Trailblazer 2wd,Bugatti,random_type#s3921y,random_fueltype#9f44y3
+631,Grand Marquis,Citroen,random_type#x85598,random_fueltype#vy0366
+632,Dakota Pickup 4wd,Benz,random_type#bofw47,random_fueltype#f9rtoj
+633," 550i",Daihatsu,random_type#b23xl3,random_fueltype#582b19
+634,Rx 330 4wd,Koenigsegg,random_type#xbi8uj,random_fueltype#137m47
+635,Aveo,Volvo,random_type#56uu2f,random_fueltype#92w53u
+636,Escape Fwd,Porsche,random_type#ovvyt8,random_fueltype#q54x1z
+637,Spectra(ld),DAF,random_type#xvh5s8,random_fueltype#vlr39e
+638,R500,Nissan,random_type#86dc1o,random_fueltype#9ndz6t
+639,Grand Marquis,Lancia,random_type#9a7l17,random_fueltype#h9d9u1
+640,Terraza Fwd,De Lorean,random_type#9o0k36,random_fueltype#spr8fk

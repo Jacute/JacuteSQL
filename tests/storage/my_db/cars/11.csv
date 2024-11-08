@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+201,Passat,Martini,random_type#f6fy81,random_fueltype#gr836k
+202,Odyssey 2wd,Peugeot,random_type#4r7opl,random_fueltype#1zo61d
+203,Mazda 3,Saab,random_type#51s52n,random_fueltype#96xy15
+204,A4 Cabriolet Quattro,Benz,random_type#9y295p,random_fueltype#t07j1q
+205,S60 Awd,Bentley,random_type#z4qu0u,random_fueltype#e2286p
+206,Outlander 2wd,Cadillac,random_type#r01b1m,random_fueltype#z92v85
+207," 330xi",Renault,random_type#qnqb65,random_fueltype#89yk6m
+208,K15 Silverado Hybrid 4wd,Pontiac,random_type#4fzqpf,random_fueltype#91gckj
+209,Outlander 2wd,Lincoln,random_type#ezv5a7,random_fueltype#5z3oxh
+210,Pacifica 2wd,KIA,random_type#o95thw,random_fueltype#35123g
+211,Optima(ms),Renault,random_type#7jg540,random_fueltype#sy08o9
+212,Dts,Spyker,random_type#210vfn,random_fueltype#97x4hs
+213,C1500 Suburban 2wd,Jaguar,random_type#e20cs7,random_fueltype#4oxz5u
+214,Db9 Volante,Nissan,random_type#y9ov1b,random_fueltype#sl7vy9
+215,G6 Gt/gtp Convertible,Seat,random_type#751q30,random_fueltype#298207
+216,Aerio Sx Awd,Ferrari,random_type#8n8etw,random_fueltype#324f7s
+217,Commander 4wd,Smart,random_type#m4hcvc,random_fueltype#r5xj78
+218,Spectra(ld),Farboud,random_type#9838l1,random_fueltype#q3t198
+219,Grand Vitara Xv6,Bentley,random_type#4fk039,random_fueltype#288mye
+220,S430,Honda,random_type#a68i31,random_fueltype#1z6xab

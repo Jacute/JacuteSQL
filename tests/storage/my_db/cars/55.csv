@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1081,Vue Fwd,Smart,random_type#9ykmlz,random_fueltype#2z885h
+1082,E55 Amg,Nissan,random_type#i769e1,random_fueltype#380d2y
+1083,Xc 70 Awd,Benz,random_type#6ye8kx,random_fueltype#i8d3ab
+1084,Scion Xa,Ferrari,random_type#kt65dy,random_fueltype#mox573
+1085,K1500 Tahoe 4wd,Benz,random_type#h70t7u,random_fueltype#7170x6
+1086,Db9 Coupe Manual,Chrysler,random_type#m5qu82,random_fueltype#8o0456
+1087,Continental Flying Spur,Pontiac,random_type#2p7d25,random_fueltype#v8536z
+1088,Mx-5,Aston Martin,random_type#238292,random_fueltype#8k2eta
+1089,B9 Tribeca Awd,Bugatti,random_type#51gh9g,random_fueltype#4q1n2z
+1090,Mpv,Seat,random_type#sv9m28,random_fueltype#6j5okw
+1091,Rx 330 2wd,Saab,random_type#i0e17l,random_fueltype#xxi19h
+1092,Dts,Noble,random_type#4a794h,random_fueltype#u0875c
+1093,F150 Supercrew 4wd,Lexus,random_type#g3qm44,random_fueltype#51ciwv
+1094,Escalade 2wd,Farboud,random_type#568d21,random_fueltype#w88b4j
+1095,Rx 330 4wd,Bentley,random_type#66r1v9,random_fueltype#80zik4
+1096,Scion Tc,Vauxhall,random_type#ud1i36,random_fueltype#1107ub
+1097,Colorado 4wd,Skoda,random_type#235i0p,random_fueltype#ctzujc
+1098,Gs 300 4wd,Farboud,random_type#3d9b5v,random_fueltype#7zs3hf
+1099,Vdp Lwb,Bugatti,random_type#z3s6t6,random_fueltype#3me328
+1100,Sienna 2wd,Farboud,random_type#3jeful,random_fueltype#gsv977

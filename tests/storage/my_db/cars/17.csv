@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+321,Continental Flying Spur,Corvette,random_type#k0a4c7,random_fueltype#cjqmw7
+322,Outlander 2wd,Suzuki,random_type#z379cw,random_fueltype#99iw1j
+323,Grand Prix,Datsun,random_type#npjlj6,random_fueltype#fh17n1
+324,S350,Subaru,random_type#6nk6x3,random_fueltype#a7l5f5
+325,Freestyle Awd,Opel,random_type#ht0lsa,random_fueltype#a5da58
+326,Escalade 2wd,Martini,random_type#rutg9w,random_fueltype#f8o1rh
+327,Trailblazer Ext 4wd,Mitsubishi,random_type#v180z7,random_fueltype#u80r4s
+328,Colorado 2wd,Mercedes,random_type#27r23k,random_fueltype#m9m0yf
+329,E150 Club Wagon,Ligier,random_type#h971a4,random_fueltype#w91u38
+330,Mazda Rx-8,Ferrari,random_type#8s8fr6,random_fueltype#718356
+331,Rx 400h 4wd,Smart,random_type#g67sw0,random_fueltype#cv3aap
+332,Lr3,Dodge,random_type#7iktsi,random_fueltype#40232d
+333,Aerio Sx,Koenigsegg,random_type#rx4711,random_fueltype#2g447g
+334,Vdp Lwb,Nissan,random_type#r9qdab,random_fueltype#sfsn26
+335,Durango 2wd,Honda,random_type#82761o,random_fueltype#29rhd8
+336,9-5 Sedan,Skoda,random_type#3e4689,random_fueltype#4z7m7t
+337,Xkr Convertible,Maserati,random_type#u80xlx,random_fueltype#3zhpsa
+338," M6",Mitsubishi,random_type#5b2813,random_fueltype#q73c5s
+339,New Beetle,Lada,random_type#m39zn3,random_fueltype#lv1i05
+340,Cl65 Amg,Honda,random_type#ej0997,random_fueltype#edknok

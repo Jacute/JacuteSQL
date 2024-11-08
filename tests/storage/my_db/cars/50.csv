@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+981,Slk280,Opel,random_type#d50357,random_fueltype#4fuh37
+982,Element 4wd,Mercedes,random_type#38890b,random_fueltype#91f0x0
+983,Gx 470,Lamborghini,random_type#5v1b3w,random_fueltype#7ms779
+984,Sienna 2wd,Corvette,random_type#eu06at,random_fueltype#7poj9o
+985,Rl,Ferrari,random_type#n2n314,random_fueltype#q6jtvv
+986," 650ci",Aston Martin,random_type#28i4h8,random_fueltype#i14333
+987," 760li",Saab,random_type#hkwm4f,random_fueltype#l7cr73
+988,Tt Roadster Quattro,Seat,random_type#uygyn6,random_fueltype#pfa18x
+989,Colorado Crew Cab 2wd,Corvette,random_type#3u2s3g,random_fueltype#6b2403
+990,Cayenne,Cadillac,random_type#h87952,random_fueltype#6i03vs
+991,C15 Silverado Hybrid 2wd,Mercedes-Benz,random_type#29j510,random_fueltype#bzzfeb
+992,Sl65 Amg,Maserati,random_type#a0r2c0,random_fueltype#2zdagf
+993,4runner 4wd,Seat,random_type#ohhuks,random_fueltype#404wz1
+994,Sebring 4-dr,Cadillac,random_type#w8m293,random_fueltype#u10en9
+995," 330i",Farboud,random_type#968d7g,random_fueltype#x2z87u
+996,K15 Silverado Hybrid 4wd,Dacia,random_type#22a6en,random_fueltype#u0g0b6
+997,Fx35 Awd,Datsun,random_type#827jp1,random_fueltype#c6l119
+998,Xkr Convertible,Farboud,random_type#y0l0by,random_fueltype#7x50p8
+999," 330xi",Bugatti,random_type#po9zc9,random_fueltype#z46ct7
+1000,Ml350,Opel,random_type#91ybi9,random_fueltype#cq5h3q

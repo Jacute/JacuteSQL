@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+541,Outback Wagon Awd,DAF,random_type#3ylv8z,random_fueltype#lbi5c3
+542,Quest,Pontiac,random_type#908397,random_fueltype#k628z8
+543," 760li",Honda,random_type#i38411,random_fueltype#ouuy90
+544,Focus  Fwd,Dodge,random_type#66q9fn,random_fueltype#c35q1g
+545," Z4 3.0 Si Coupe",Lincoln,random_type#901jtx,random_fueltype#44pbeh
+546,Crown Victoria Police,Chevrolet,random_type#44u170,random_fueltype#6k03zp
+547,Legacy Awd,Aston Martin,random_type#z5n6sz,random_fueltype#5cx46p
+548,Mountaineer 4wd,Corvette,random_type#ful30k,random_fueltype#sz53v5
+549,Ranger Pickup 2wd,Volvo,random_type#87udt3,random_fueltype#97c7i4
+550,Sl500,Ligier,random_type#xaxwz6,random_fueltype#470m3j
+551,Solstice,Renault,random_type#1627s9,random_fueltype#mpyb3e
+552,9-3 Sport Sedan,Dodge,random_type#z9oelf,random_fueltype#zl1qt1
+553,E350,Fiat,random_type#8jqczd,random_fueltype#281be4
+554,Freestyle Fwd,Corvette,random_type#vl0344,random_fueltype#9h3iio
+555,Ls,Chrysler,random_type#3n75mi,random_fueltype#84x4d8
+556,Sl600,Mazda,random_type#v4w490,random_fueltype#wy68sb
+557,Taurus,Opel,random_type#zezwvq,random_fueltype#7ovc30
+558,C280,KIA,random_type#6t4q4a,random_fueltype#htws13
+559,Hhr Fwd,Suzuki,random_type#48joav,random_fueltype#8fj68b
+560,Ml500,Hummer,random_type#9lr05m,random_fueltype#4ac343

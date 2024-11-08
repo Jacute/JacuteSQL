@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+281,9-3 Convertible,Ligier,random_type#a7lmw2,random_fueltype#7154hl
+282,Ram 1500 Pickup 2wd,Mazda,random_type#qb3544,random_fueltype#775ioi
+283,C280 4matic,Citroen,random_type#727ucj,random_fueltype#39bhez
+284,Odyssey 2wd,McLaren,random_type#uh8emj,random_fueltype#fw17s0
+285,Lancer Sportback,KIA,random_type#tzw779,random_fueltype#a36978
+286,Armada 4wd,Cadillac,random_type#7pi1w5,random_fueltype#3jo33e
+287,Mdx 4wd,Volvo,random_type#gb7s88,random_fueltype#f43q4e
+288,4runner 4wd,Ferrari,random_type#fsoj8r,random_fueltype#o643f0
+289,Sebring 4-dr,Lexus,random_type#8dqb72,random_fueltype#lox801
+290,Db9 Volante,KIA,random_type#3r638h,random_fueltype#i6bs77
+291,Ls 430,Corvette,random_type#d6qvh8,random_fueltype#pzj523
+292,F150 Supercrew 4wd,Aston Martin,random_type#wv5wv9,random_fueltype#3dcb4f
+293,Xkr Convertible,Farboud,random_type#989h76,random_fueltype#lm61q4
+294,Colorado Cab Chassis Inc 2wd,Spyker,random_type#g45ch5,random_fueltype#41704e
+295,Srx 2wd,Opel,random_type#g70g7z,random_fueltype#ham07h
+296,Colorado Crew Cab 4wd,Bugatti,random_type#ieomo8,random_fueltype#qud126
+297,C1500 Tahoe 2wd,BMW,random_type#2r682g,random_fueltype#2kz0za
+298,Lacrosse/allure,Jeep,random_type#2dv05o,random_fueltype#at5tz7
+299,4runner 4wd,Jeep,random_type#xo25zt,random_fueltype#351itq
+300,Gti,Fiat,random_type#s7f0l9,random_fueltype#388l7u

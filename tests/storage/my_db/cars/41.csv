@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+801,V70 R Awd,Alfa Romeo,random_type#28e450,random_fueltype#1n962m
+802,Xj8,Suzuki,random_type#ph6899,random_fueltype#ej4i98
+803,C350,Cadillac,random_type#6k8g24,random_fueltype#29mk8j
+804,Endeavor 2wd,Martini,random_type#di3v34,random_fueltype#4szow5
+805,C1500 Suburban 2wd,Skoda,random_type#150w5e,random_fueltype#ad9702
+806,Impala,Lexus,random_type#538k8z,random_fueltype#11bgbd
+807,K15 Silverado Hybrid 4wd,Bentley,random_type#9wtf3v,random_fueltype#49qiqr
+808,Cl65 Amg,Audi,random_type#yv24el,random_fueltype#d9ep58
+809,Crossfire Roadster,Land Rover,random_type#ywsjem,random_fueltype#70r68o
+810,B4000 4wd,BMW,random_type#335rn7,random_fueltype#lm401f
+811,Maybach 62,Ford,random_type#206122,random_fueltype#1d0iv1
+812,Envoy 2wd,Skoda,random_type#xt5x83,random_fueltype#x3242g
+813,Yaris,Dacia,random_type#52vikr,random_fueltype#437228
+814,Xc 90 Awd,Saab,random_type#o7847b,random_fueltype#9d4wiy
+815,Fx35 Rwd,Dino,random_type#j724qg,random_fueltype#713f79
+816,Aveo,Bugatti,random_type#47vgop,random_fueltype#cndap1
+817,Envoy 2wd,Ligier,random_type#c1z6x1,random_fueltype#48tv95
+818,F150 Ffv  2wd,Lotus,random_type#r7lg79,random_fueltype#e6y01h
+819,Dakota Pickup 4wd,Porsche,random_type#l0ubdm,random_fueltype#sq8gpz
+820,A4,Jeep,random_type#ottp11,random_fueltype#95h084

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+561,Cr-v 4wd,BMW,random_type#27d07e,random_fueltype#x41eov
+562,New Beetle,Mercedes-Benz,random_type#o64xq8,random_fueltype#4p64mx
+563,Q45,Daewoo,random_type#h1g10x,random_fueltype#483046
+564,Cls55 Amg,Opel,random_type#49v20x,random_fueltype#40a070
+565,C8 Spyder,Vauxhall,random_type#o029mg,random_fueltype#9rffx9
+566,Pilot 2wd,KIA,random_type#bqc2av,random_fueltype#uvfufh
+567,Colorado Crew Cab 4wd,Corvette,random_type#26kfdt,random_fueltype#59y1i6
+568,Xc 90 Awd,Daewoo,random_type#v4b48m,random_fueltype#bw154l
+569,Tt Coupe Quattro,Suzuki,random_type#3mge8i,random_fueltype#836wv4
+570,Elise/exige,Maybach,random_type#8x83si,random_fueltype#88b396
+571,Legacy Awd,Lancia,random_type#8oce5x,random_fueltype#26kn7p
+572,Xkr Convertible,McLaren,random_type#36a80z,random_fueltype#81c3vu
+573,Cts,Maybach,random_type#8ic0g3,random_fueltype#3rhu2z
+574,Toyota Tundra 2wd,McLaren,random_type#i3zrwn,random_fueltype#80buef
+575,Continental Flying Spur,Maserati,random_type#nc510r,random_fueltype#7k89ep
+576,New Beetle Convertible,Renault,random_type#vd4734,random_fueltype#ufzxyg
+577,Lx 470,Hyundai,random_type#9f03zh,random_fueltype#pv1f68
+578,Clk350,Daewoo,random_type#348607,random_fueltype#6bpub8
+579,Rio,DAF,random_type#2570ql,random_fueltype#67yp6f
+580,Slr,Daihatsu,random_type#p84o02,random_fueltype#81mj0d

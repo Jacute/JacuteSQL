@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+681,Explorer 4wd,DAF,random_type#zoe197,random_fueltype#3g80r0
+682,C8 Spyder,Audi,random_type#5ioka3,random_fueltype#4j883m
+683,Lancer,Spyker,random_type#5o1o4t,random_fueltype#eu0t7d
+684,Tucson 4wd,Jaguar,random_type#ztwj2p,random_fueltype#84rzsk
+685," X5",Lada,random_type#7ftyq5,random_fueltype#8e43gv
+686,Xc 70 Awd,Skoda,random_type#fapkk7,random_fueltype#361p3y
+687,Trailblazer 2wd,Dodge,random_type#m43y90,random_fueltype#2r6n8j
+688,9-3 Sport Sedan,Fiat,random_type#sae9qz,random_fueltype#5498b0
+689,Prius,KIA,random_type#t903n2,random_fueltype#q332na
+690," Mini Cooper Convertible",Dodge,random_type#txc07p,random_fueltype#oqqd68
+691,Ram 1500 Pickup 4wd,Smart,random_type#uvo349,random_fueltype#z3u5yr
+692," Mini Cooper S Convertible",Pontiac,random_type#s28t47,random_fueltype#cr1ted
+693," Z4 3.0si",Opel,random_type#kw4c08,random_fueltype#6hp3gy
+694,Scion Tc,Bentley,random_type#820ikx,random_fueltype#1faf26
+695,Sts,Pontiac,random_type#9aoazz,random_fueltype#3lizgw
+696,Ls,Datsun,random_type#46x3tl,random_fueltype#6wmhhm
+697,Pathfinder 4wd,Subaru,random_type#8160yq,random_fueltype#3if1dz
+698," 530xi Sport Wagon",Opel,random_type#td4j1g,random_fueltype#z46y2i
+699,Endeavor 2wd,Dino,random_type#y66k2c,random_fueltype#p1pd09
+700,Envoy Xl 4wd,Seat,random_type#tcb13a,random_fueltype#l52359

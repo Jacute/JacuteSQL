@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+301,Lancer Sportback,Hummer,random_type#34e7jk,random_fueltype#tcxyl4
+302,Srx Awd,Toyota,random_type#1p955p,random_fueltype#p1ws4b
+303,Es 330,BMW,random_type#bbbzs1,random_fueltype#12ev7d
+304,Xterra 4wd,Nissan,random_type#52v3wy,random_fueltype#j2yc6s
+305,Xc 90 Awd,Hummer,random_type#6d8p7v,random_fueltype#i410w4
+306," 550i",Citroen,random_type#l87400,random_fueltype#5077i4
+307," M5",Citroen,random_type#5qtdy6,random_fueltype#wehi6h
+308,Grand Marquis,KIA,random_type#l814yv,random_fueltype#y32ofn
+309,E350 4matic (wagon),Fiat,random_type#1layxr,random_fueltype#tfbw9j
+310,C350,Farboud,random_type#27d52n,random_fueltype#6x1qdc
+311,Ls,Maserati,random_type#69drhs,random_fueltype#5nzj02
+312,Rendezvous Fwd,McLaren,random_type#j1zj60,random_fueltype#et52h3
+313,S4 Avant,De Lorean,random_type#j20k36,random_fueltype#m9709e
+314,Pt Cruiser,Suzuki,random_type#20a6bz,random_fueltype#4yx8s5
+315,M35,Lamborghini,random_type#2hfns7,random_fueltype#k68282
+316,Gt 2wd,Maserati,random_type#h88o8w,random_fueltype#n9gx7u
+317,Outlander 4wd,Chrysler,random_type#bn7362,random_fueltype#u135sq
+318,M45,BMW,random_type#l7pk86,random_fueltype#iylses
+319,Trailblazer 2wd,Lexus,random_type#4a55d6,random_fueltype#da6n4x
+320,S40 Awd,BMW,random_type#30w6at,random_fueltype#79o9j7

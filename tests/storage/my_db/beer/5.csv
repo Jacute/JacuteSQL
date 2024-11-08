@@ -1,0 +1,21 @@
+beer_pk,name,style,alcohol,ibu,blg
+81,St. Bernardus Abt 12,Fruit Beer,7.7%,100 IBU,5.3°Blg
+82,Chimay Grande Réserve,Light Lager,6.2%,43 IBU,13.7°Blg
+83,Oaked Arrogant Bastard Ale,European Amber Lager,5.1%,67 IBU,7.7°Blg
+84,90 Minute IPA,Strong Ale,5.1%,59 IBU,13.1°Blg
+85,Weihenstephaner Hefeweissbier,Merican Ale,4.8%,77 IBU,9.9°Blg
+86,Yeti Imperial Stout,Strong Ale,7.3%,66 IBU,14.4°Blg
+87,Weihenstephaner Hefeweissbier,English Pale Ale,7.3%,60 IBU,12.8°Blg
+88,Duvel,European Amber Lager,3.2%,35 IBU,13.4°Blg
+89,Westmalle Trappist Tripel,India Pale Ale,4.8%,84 IBU,16.6°Blg
+90,Orval Trappist Ale,Wood-aged Beer,4.5%,98 IBU,17.5°Blg
+91,Racer 5 India Pale Ale Bear Republic Bre,Belgian Strong Ale,8.2%,43 IBU,19.2°Blg
+92,Chocolate St,Light Lager,8.2%,59 IBU,13.6°Blg
+93,Bourbon County Stout,Strong Ale,9.7%,36 IBU,6.5°Blg
+94,Hercules Double IPA,Light Hybrid Beer,3.8%,86 IBU,10.5°Blg
+95,Schneider Aventinus,Merican Ale,7.5%,64 IBU,13.2°Blg
+96,Stone IPA,English Pale Ale,8.1%,72 IBU,12.9°Blg
+97,Sublimely Self-Righteous Ale,Merican Ale,2.2%,44 IBU,16.3°Blg
+98,Pliny The Elder,Light Lager,4.8%,97 IBU,10.4°Blg
+99,Shakespeare Oatmeal,English Pale Ale,7.7%,45 IBU,12.5°Blg
+100,Founders Kentucky Breakfast,Light Hybrid Beer,9.5%,31 IBU,13.4°Blg

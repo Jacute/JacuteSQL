@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1061,Is 250,Hyundai,random_type#545mns,random_fueltype#qn1sbk
+1062,Mazda 6 Sport Wagon,Farboud,random_type#1p22t8,random_fueltype#31e7a2
+1063,Srx 2wd,Opel,random_type#oa44in,random_fueltype#33xuns
+1064,C230,Lamborghini,random_type#zpf2l6,random_fueltype#pwj74f
+1065,Escape Hybrid 4wd,Peugeot,random_type#o17p7v,random_fueltype#35j179
+1066,E350 4matic,Vauxhall,random_type#265hx1,random_fueltype#3b8yy8
+1067,Sienna 4wd,Dino,random_type#jft124,random_fueltype#l17j67
+1068,A3,Chrysler,random_type#dz9a29,random_fueltype#dtrw72
+1069," X5",Martini,random_type#n7306k,random_fueltype#643e4g
+1070,Solstice,Tesla,random_type#5076js,random_fueltype#spv0k3
+1071,Impala,Alfa Romeo,random_type#585odn,random_fueltype#6ugvqe
+1072,Toyota Tacoma 4wd,Chrysler,random_type#6435c8,random_fueltype#be6it2
+1073,Range Rover Sport,Seat,random_type#r3h4in,random_fueltype#j4ucjl
+1074,Scion Xa,Saab,random_type#hg97wn,random_fueltype#q616ft
+1075,Outback Wagon Awd,Jaguar,random_type#j6of3i,random_fueltype#i5l5mk
+1076,Stratus 4-dr,Rover,random_type#q5g16z,random_fueltype#2xy233
+1077,Ferrari F141,Nissan,random_type#g12938,random_fueltype#v1r7o5
+1078,Baja Awd,Hummer,random_type#gp65zv,random_fueltype#3c4232
+1079,Aerio Sx Awd,Citroen,random_type#bt6035,random_fueltype#q2q951
+1080,Escape Hybrid Fwd,McLaren,random_type#7n275q,random_fueltype#9g0x8u

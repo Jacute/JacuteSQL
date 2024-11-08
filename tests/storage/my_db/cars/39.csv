@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+761,Colorado Cab Chassis Inc 2wd,Chevrolet,random_type#79b504,random_fueltype#x17jzr
+762,Srx 2wd,Rover,random_type#3gn0ri,random_fueltype#gyf6ab
+763,Range Rover,Mitsubishi,random_type#s20wbf,random_fueltype#24i18g
+764,Tt Coupe,KIA,random_type#96ft67,random_fueltype#2fwflh
+765,Boxster S,Lotus,random_type#35alw3,random_fueltype#3xmz8s
+766,Grand Cherokee 4wd,Volkswagen,random_type#vr5cbe,random_fueltype#h029ly
+767,Scion Tc,Vauxhall,random_type#37t313,random_fueltype#73j2e2
+768,Tucson 2wd,Dacia,random_type#1s60sa,random_fueltype#e9vcai
+769,Armada 4wd,Bugatti,random_type#qdcfqe,random_fueltype#i76s90
+770,Accent,Martini,random_type#96w8ve,random_fueltype#54469r
+771,Sedona,Corvette,random_type#danr4c,random_fueltype#83xn0p
+772,V70 Fwd,Corvette,random_type#262o66,random_fueltype#c50n4h
+773,Outback Wagon Awd,Skoda,random_type#rnxal3,random_fueltype#2x7idg
+774,Colorado 2wd,Land Rover,random_type#30ch3u,random_fueltype#yz43qn
+775," 325ci Convertible",Renault,random_type#coh4e0,random_fueltype#e498gk
+776,9-5 Sedan,Renault,random_type#w962v6,random_fueltype#2q5l87
+777,Civic Hybrid,Lamborghini,random_type#g014r7,random_fueltype#2593t3
+778,Civic Hybrid,Maybach,random_type#f6v15q,random_fueltype#77b482
+779,Db9 Coupe,Mitsubishi,random_type#jzu5be,random_fueltype#qh24w7
+780,C350 4matic,Koenigsegg,random_type#zktyc6,random_fueltype#c104xg

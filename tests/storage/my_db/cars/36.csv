@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+701," X3",Lamborghini,random_type#3av60w,random_fueltype#4w1uiw
+702,Commander 4wd,Ligier,random_type#y64a31,random_fueltype#4836ui
+703,Sportage 4wd,Porsche,random_type#e367xi,random_fueltype#6f8p0o
+704,Vue Fwd,Jeep,random_type#rfs3ia,random_fueltype#750743
+705,Sts,Maserati,random_type#319029,random_fueltype#1qjby9
+706,Caravan 2wd,Chrysler,random_type#69wzpo,random_fueltype#v6kb6v
+707," M6",Volkswagen,random_type#3ma65r,random_fueltype#g9q3rp
+708,Spectra(ld),Maserati,random_type#f85p3d,random_fueltype#1wicmc
+709,Touareg,Seat,random_type#6x3f1y,random_fueltype#533642
+710,C15 Silverado Hybrid 2wd,Noble,random_type#at9m22,random_fueltype#5z7m53
+711,V70 Fwd,Land Rover,random_type#on1455,random_fueltype#p6wm95
+712,Rx 400h 4wd,Mazda,random_type#35w93o,random_fueltype#t30218
+713,Frontier 2wd,Mercedes-Benz,random_type#hfx15w,random_fueltype#d3ellu
+714,Rav4 2wd,Skoda,random_type#7e69mm,random_fueltype#qqzs0o
+715,Sl65 Amg,Jeep,random_type#mx0912,random_fueltype#29s797
+716,Corolla Matrix,Spyker,random_type#1cp560,random_fueltype#us24rh
+717,Aerio Sx,Ford,random_type#8s568c,random_fueltype#17zsu5
+718,S-type R,Aston Martin,random_type#1k5hic,random_fueltype#fb7n36
+719,Insight,Benz,random_type#a7gf4m,random_fueltype#3s0209
+720,K1500 Silverado 4wd,Spyker,random_type#34y7v5,random_fueltype#24mwr1

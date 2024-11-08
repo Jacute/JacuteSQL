@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+501,Scion Xa,Seat,random_type#h0am8i,random_fueltype#3nd905
+502,4runner 4wd,Datsun,random_type#h6ha5q,random_fueltype#2x32q8
+503,Hhr Fwd,Bugatti,random_type#ca4vi6,random_fueltype#108sv2
+504,Lancer,Spyker,random_type#972l2x,random_fueltype#41771b
+505,Endeavor 2wd,Saab,random_type#kwr6i9,random_fueltype#9t6ay5
+506,Cayenne Turbo,Bentley,random_type#51ml1z,random_fueltype#g73z21
+507,Rendezvous Fwd,Toyota,random_type#7141x2,random_fueltype#650w79
+508,Lx 470,Ford,random_type#3ark82,random_fueltype#c5p7l9
+509,Sedona,Dacia,random_type#w8qno2,random_fueltype#wyd835
+510," 330ci Convertible",Dacia,random_type#48vc04,random_fueltype#7732bk
+511,Grand Vitara Xv6,Dacia,random_type#9576ur,random_fueltype#vve8n4
+512,Legacy Awd,Benz,random_type#8v4g85,random_fueltype#69v99p
+513," 325i",Lincoln,random_type#418li6,random_fueltype#968ung
+514,Element 4wd,Dino,random_type#18cs11,random_fueltype#743e5l
+515," 325xi Sport Wagon",De Lorean,random_type#q9sr79,random_fueltype#7zp575
+516,A3 Quattro,Volvo,random_type#we94p7,random_fueltype#1971il
+517,Uplander Fwd,Bentley,random_type#5y95lg,random_fueltype#567l1e
+518," X5",Citroen,random_type#zn5o11,random_fueltype#26qofe
+519,Xk8 Convertible,Cadillac,random_type#c8a25m,random_fueltype#sj1f3f
+520,Escape 4wd,Bentley,random_type#4zhn3f,random_fueltype#3kz10w

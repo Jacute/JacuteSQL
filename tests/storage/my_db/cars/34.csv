@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+661,Gt 2wd,Spyker,random_type#c4yth3,random_fueltype#17z7c1
+662,E350 4matic,Saab,random_type#m0g3rn,random_fueltype#2bt8fe
+663," 650ci",DAF,random_type#75hhb4,random_fueltype#9age99
+664,V50 Awd,Benz,random_type#cy8ai3,random_fueltype#4m6g7p
+665,Escalade Esv Awd,Ford,random_type#9c04fv,random_fueltype#x25g3i
+666,Maybach 62,Dacia,random_type#r3212w,random_fueltype#5ir8k4
+667," 530xi",Maybach,random_type#39oj00,random_fueltype#30w72q
+668,Sequoia 4wd,Maybach,random_type#dk0n26,random_fueltype#vo1w01
+669,V70 Fwd,Mitsubishi,random_type#9ah5uz,random_fueltype#39g1q5
+670,Mazda Rx-8,Opel,random_type#3ax8x3,random_fueltype#1pb1w7
+671,Cr-v 4wd,Benz,random_type#qs9kdk,random_fueltype#5b3ts0
+672," 650ci",McLaren,random_type#ee1915,random_fueltype#k95566
+673,Is 250 Awd,Rolls-Royce,random_type#8lcb7o,random_fueltype#jpdck3
+674,Gs 300/gs 430,Ligier,random_type#87kz37,random_fueltype#7c38qi
+675,Grand Cherokee 4wd,Suzuki,random_type#i32uz7,random_fueltype#o2fosa
+676,Sequoia 4wd,Daihatsu,random_type#8k43h8,random_fueltype#gqcrs9
+677,S-type 4.2 Litre,Ford,random_type#47c9i7,random_fueltype#tzh77d
+678,Rx 330 2wd,Noble,random_type#64r0a8,random_fueltype#m4gbah
+679,S4 Avant,De Lorean,random_type#50azr2,random_fueltype#3cro6k
+680,Trailblazer Ext 4wd,De Lorean,random_type#p2it8j,random_fueltype#rl2z3w

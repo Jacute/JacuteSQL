@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+341,Wrangler/tj 4wd,Volvo,random_type#gw9d7c,random_fueltype#oawuvk
+342,4runner 4wd,Saab,random_type#k6aizz,random_fueltype#988p78
+343,New Beetle Convertible,Hyundai,random_type#45j13m,random_fueltype#46rl79
+344,Impreza Wgn/outback Spt Awd,Skoda,random_type#79p1nh,random_fueltype#513y43
+345,Tt Roadster,Dodge,random_type#842l36,random_fueltype#11ec3c
+346,Cls55 Amg,Subaru,random_type#903f10,random_fueltype#h5wqac
+347,Sts Awd,Seat,random_type#w9orgl,random_fueltype#74wf49
+348,Colorado 2wd,Pontiac,random_type#j70sn1,random_fueltype#40w1s5
+349,Rendezvous Fwd,Lamborghini,random_type#358onr,random_fueltype#5946zs
+350," 525xi",De Lorean,random_type#692qp5,random_fueltype#9gdvz3
+351,Mazda Rx-8,Farboud,random_type#7u04dl,random_fueltype#2y0o94
+352,Cayman S,Maybach,random_type#v6257n,random_fueltype#qi5sv6
+353,Maybach 62,Mercedes,random_type#9io06f,random_fueltype#631jr2
+354,Outback Wagon Awd,Opel,random_type#551sa0,random_fueltype#9e728i
+355,S-type 3.0 Litre,Jeep,random_type#y82504,random_fueltype#his1u9
+356,Aerio Sx Awd,Koenigsegg,random_type#5hb4t3,random_fueltype#7d79w3
+357,Clk350 (cabriolet),Porsche,random_type#500p6r,random_fueltype#g3676v
+358,Touareg,Martini,random_type#g2u00f,random_fueltype#c3fd2q
+359,Rx 330 2wd,Chrysler,random_type#75bwx6,random_fueltype#1dzesp
+360,Mazda 6 Sport Wagon,Aston Martin,random_type#qwx939,random_fueltype#9m5tod

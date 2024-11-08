@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+61,G6,Datsun,random_type#7y8v84,random_fueltype#b5j686
+62,Grand Prix,Porsche,random_type#d861v9,random_fueltype#8k8v68
+63,Verona,Mercedes-Benz,random_type#dhh185,random_fueltype#c6offx
+64,Cr-v 4wd,Rover,random_type#7ff32j,random_fueltype#d3elqv
+65,C280,Vauxhall,random_type#7s775u,random_fueltype#sr4m87
+66,Fx35 Rwd,Spyker,random_type#1f8pzb,random_fueltype#lont1z
+67,Pilot 2wd,Martini,random_type#xcc9u9,random_fueltype#61crkn
+68,Sebring 4-dr,Spyker,random_type#ws04pv,random_fueltype#9k7j0c
+69,Town & Country 2wd,Lamborghini,random_type#ru9165,random_fueltype#8xndpw
+70,Vue Awd,Chevrolet,random_type#6r252u,random_fueltype#19nyb1
+71,Ferrari 612 Scaglietti,Lamborghini,random_type#ijrhp9,random_fueltype#69i4bu
+72,Equinox Fwd,Mercedes,random_type#2svuh2,random_fueltype#7diztm
+73,Sequoia 2wd,Chrysler,random_type#3p00gz,random_fueltype#q13155
+74,Slr,Volkswagen,random_type#4yjgam,random_fueltype#f60p78
+75,Stratus 4-dr,Maybach,random_type#56c717,random_fueltype#x8871m
+76,Grand Vitara Xv6 Awd,Saab,random_type#74d4f5,random_fueltype#635447
+77,M35x,Lamborghini,random_type#yq7239,random_fueltype#t085g1
+78,Range Rover Sport,Spyker,random_type#5zvv6s,random_fueltype#467kau
+79,Optima,Hyundai,random_type#v22874,random_fueltype#g898en
+80,A6 Quattro,Chevrolet,random_type#ub2190,random_fueltype#786rpg

@@ -109,28 +109,6 @@ func (s *Storage) CreateTable(tableName string, tablePath string, columns []stri
 			}
 		}
 	}
-
-	lockPath := path.Join(tablePath, tableName+"_lock")
-	if utils.FileExists(lockPath) {
-		log.Info("lock file already exists", slog.String("lockpath", lockPath))
-	} else {
-		err := utils.WriteFile(lockPath, "0")
-		if err != nil {
-			if errors.Is(err, utils.ErrWriteFile) {
-				log.Warn(
-					"Can't write to lock file",
-					slog.String("lockpath", lockPath),
-					slog.Any("columns", columns),
-				)
-			} else {
-				log.Error(
-					"Can't create pk file",
-					prettylogger.Err(err),
-					slog.String("lockpath", lockPath),
-				)
-			}
-		}
-	}
 }
 
 func (s *Storage) Destroy() {

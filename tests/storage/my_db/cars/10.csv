@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+181,Cls55 Amg,Martini,random_type#g3o948,random_fueltype#vf4559
+182,Elantra,Smart,random_type#9osecq,random_fueltype#96t21p
+183,Armada 2wd,Mazda,random_type#v52974,random_fueltype#ag7486
+184,Clk350 (cabriolet),Porsche,random_type#pcp951,random_fueltype#w9w2xo
+185,Yaris,Martini,random_type#7b7ynl,random_fueltype#11ps9i
+186,Grand Vitara Xl-7 4wd,Tesla,random_type#q964fy,random_fueltype#f5f73j
+187,Lancer,Vauxhall,random_type#2jzy5b,random_fueltype#r885xh
+188,Sportage 2wd,Dino,random_type#q0i1ri,random_fueltype#t1if5k
+189,Mpv,Spyker,random_type#90iyg9,random_fueltype#z5sdp7
+190,A4 Quattro,Dino,random_type#40n54b,random_fueltype#w60l77
+191,Viper Convertible,Bugatti,random_type#169i27,random_fueltype#78zskb
+192,Aerio Sx,KIA,random_type#h7o4pf,random_fueltype#9cgvc1
+193,Equinox Awd,Maserati,random_type#2ry17k,random_fueltype#z9a9ny
+194,Dakota Pickup 4wd,Renault,random_type#11rywx,random_fueltype#3djvd6
+195,A6 Quattro,Martini,random_type#gy32c3,random_fueltype#78h8a4
+196,Colorado 2wd,McLaren,random_type#6y7z72,random_fueltype#b59fxf
+197,Forenza,Lada,random_type#192gwi,random_fueltype#uf2f92
+198,9-3 Convertible,Dino,random_type#pf93mt,random_fueltype#17609x
+199,Mx-5,Pontiac,random_type#q7t37c,random_fueltype#19rl90
+200,S2000,Chrysler,random_type#7r9t0p,random_fueltype#xmuq74

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+81,V12 Vanquish S,Rolls-Royce,random_type#5m82o4,random_fueltype#puxa6r
+82,Veyron,Seat,random_type#5p860u,random_fueltype#yt66rz
+83,Sentra,BMW,random_type#43obi6,random_fueltype#v9zcgg
+84,Grand Cherokee 2wd,Bentley,random_type#2985vt,random_fueltype#pc3z17
+85,S4 Avant,Lamborghini,random_type#tf1dds,random_fueltype#w5htq4
+86," 525xi",DAF,random_type#96761c,random_fueltype#6uy4lh
+87,Civic,Farboud,random_type#tvw022,random_fueltype#h1x0rg
+88,Ml350,Benz,random_type#rxh444,random_fueltype#p7l400
+89,A3,Renault,random_type#jnzr32,random_fueltype#j65797
+90,Ram 1500 Pickup 2wd,Corvette,random_type#wt1b85,random_fueltype#a6754c
+91,Dakota Pickup 2wd,Rolls-Royce,random_type#206g1k,random_fueltype#6x13y4
+92,Titan 2wd,Farboud,random_type#72of1p,random_fueltype#567u54
+93,Carrera 2 Coupe,Farboud,random_type#r2jvyk,random_fueltype#91z9at
+94,Escape Hybrid 4wd,Lancia,random_type#hh87qm,random_fueltype#6t8gq7
+95,Toyota Tundra 2wd,Maybach,random_type#ey4m1x,random_fueltype#lce2ve
+96,S60 Awd,Daihatsu,random_type#m98nfl,random_fueltype#708m47
+97,Odyssey 2wd,Mercedes-Benz,random_type#y015tv,random_fueltype#56719n
+98,Pilot 4wd,Lada,random_type#7r29a0,random_fueltype#54q0ar
+99,Crossfire Roadster,Seat,random_type#w16v0g,random_fueltype#t9a52h
+100,F150 Ffv  2wd,Bugatti,random_type#wx72x7,random_fueltype#7f5u9s

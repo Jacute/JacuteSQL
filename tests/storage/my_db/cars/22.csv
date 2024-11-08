@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+421,Envoy Xl 4wd,Lada,random_type#94b841,random_fueltype#19mazq
+422,Colorado Cab Chassis Inc 2wd,Martini,random_type#4k2xax,random_fueltype#de6d57
+423," M5",Daihatsu,random_type#522pb5,random_fueltype#in5v31
+424,Ml350,Bentley,random_type#ba7q21,random_fueltype#970pp4
+425,Impala,Farboud,random_type#n44yly,random_fueltype#6dyw58
+426,Azera,Martini,random_type#eszr41,random_fueltype#p99n6c
+427,Db9 Volante,Koenigsegg,random_type#8f2416,random_fueltype#y4668e
+428,Cls55 Amg,Bugatti,random_type#4e70w5,random_fueltype#9q0h88
+429,Rendezvous Fwd,McLaren,random_type#m9s75l,random_fueltype#d599z1
+430,Galant,Noble,random_type#5q4yc6,random_fueltype#2k9o62
+431,G1500/2500 Chevy Express 2wd,Suzuki,random_type#76477d,random_fueltype#34619a
+432,Quattroporte,Dodge,random_type#ryz2a9,random_fueltype#3hcf1q
+433,Scion Xb,Suzuki,random_type#z3z27y,random_fueltype#uc62u6
+434,Golf,Hyundai,random_type#1f331j,random_fueltype#7pc0zz
+435,Xc 70 Awd,Smart,random_type#dr94xa,random_fueltype#3a9wtf
+436,Scion Tc,Rolls-Royce,random_type#1es3ne,random_fueltype#7cqa67
+437,Civic,Porsche,random_type#2d88o8,random_fueltype#sals0v
+438,Highlander Hybrid 2wd,Toyota,random_type#4z9z69,random_fueltype#k5w1k3
+439,H3 4wd,Citroen,random_type#r562x4,random_fueltype#26jbl4
+440,Coupe Cambiocorsa/gt/g-sport,De Lorean,random_type#78ce7b,random_fueltype#44j2o9

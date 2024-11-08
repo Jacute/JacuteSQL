@@ -1,0 +1,21 @@
+beer_pk,name,style,alcohol,ibu,blg
+201,Pliny The Elder,Dark Lager,8.2%,99 IBU,19.9°Blg
+202,Schneider Aventinus,Smoke-flavored,8.8%,99 IBU,10.6°Blg
+203,Schneider Aventinus,India Pale Ale,2.5%,58 IBU,19.0°Blg
+204,Trois Pistoles,English Brown Ale,8.2%,68 IBU,11.5°Blg
+205,La Fin Du Monde,European Amber Lager,2.4%,54 IBU,19.8°Blg
+206,Oaked Arrogant Bastard Ale,Bock,8.2%,34 IBU,7.9°Blg
+207,Sierra Nevada Celebration Ale,Belgian And French Ale,5.5%,29 IBU,16.9°Blg
+208,Trappistes Rochefort 10,Belgian Strong Ale,5.9%,61 IBU,12.5°Blg
+209,Orval Trappist Ale,Wood-aged Beer,5.1%,89 IBU,14.5°Blg
+210,Two Hearted Ale,Pilsner,3.4%,65 IBU,12.8°Blg
+211,Oaked Arrogant Bastard Ale,Dark Lager,4.6%,11 IBU,18.3°Blg
+212,Trappistes Rochefort 8,Scottish And Irish Ale,9.4%,70 IBU,8.3°Blg
+213,Storm King Stout,Wood-aged Beer,9.2%,56 IBU,19.9°Blg
+214,Racer 5 India Pale Ale Bear Republic Bre,India Pale Ale,5.7%,59 IBU,6.1°Blg
+215,Founders Kentucky Breakfast,Sour Ale,4.5%,95 IBU,7.3°Blg
+216,Weihenstephaner Hefeweissbier,Amber Hybrid Beer,8.0%,19 IBU,5.4°Blg
+217,Trappistes Rochefort 8,English Brown Ale,4.3%,18 IBU,11.1°Blg
+218,Trappistes Rochefort 10,Belgian Strong Ale,9.1%,51 IBU,15.5°Blg
+219,Racer 5 India Pale Ale Bear Republic Bre,Scottish And Irish Ale,6.9%,100 IBU,15.9°Blg
+220,Double Bastard Ale,English Pale Ale,8.1%,37 IBU,14.3°Blg

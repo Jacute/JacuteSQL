@@ -141,7 +141,7 @@ func (s *Storage) Exec(str string) (string, error) {
 			}
 		}
 
-		if err := s.block(tableName); err != nil {
+		if err := s.blockTables([]string{tableName}); err != nil {
 			return "", fmt.Errorf("error: " + err.Error())
 		}
 		err := s.Insert(tableName, valuesSplitted)
@@ -151,7 +151,7 @@ func (s *Storage) Exec(str string) (string, error) {
 			}
 			return "", fmt.Errorf("error: " + err.Error())
 		}
-		s.unBlock(tableName)
+		s.unBlockTables([]string{tableName})
 
 		return "", nil
 	} else if deleteRegexp.Match([]byte(str)) {
@@ -164,18 +164,14 @@ func (s *Storage) Exec(str string) (string, error) {
 		}
 
 		for _, tableName := range tablesSplitted {
-			if s.isBlock(tableName) {
-				return "", fmt.Errorf("table %s is blocked", tableName)
-			}
-
-			if err := s.block(tableName); err != nil {
+			if err := s.blockTables([]string{tableName}); err != nil {
 				return "", fmt.Errorf("error: " + err.Error())
 			}
 			err := s.Delete(tableName)
 			if err != nil {
 				return "", fmt.Errorf("error: " + err.Error())
 			}
-			s.unBlock(tableName)
+			s.unBlockTables([]string{tableName})
 		}
 	} else if deleteWhereRegexp.Match([]byte(str)) {
 		matches := deleteWhereRegexp.FindStringSubmatch(str)
@@ -188,7 +184,7 @@ func (s *Storage) Exec(str string) (string, error) {
 		}
 		count := 0
 		for _, tableName := range tablesSplitted {
-			if err := s.block(tableName); err != nil {
+			if err := s.blockTables([]string{tableName}); err != nil {
 				return "", fmt.Errorf("error: " + err.Error())
 			}
 			var err error
@@ -196,7 +192,7 @@ func (s *Storage) Exec(str string) (string, error) {
 			if err != nil {
 				return "", fmt.Errorf("error: " + err.Error())
 			}
-			s.unBlock(tableName)
+			s.unBlockTables([]string{tableName})
 		}
 
 		return fmt.Sprintf("deleted %d rows", count), nil
@@ -499,6 +495,14 @@ func (s *Storage) Select(fields []string, tables []string, condition string) (*m
 			}
 		}
 	}
+
+	s.log.Info(
+		"select completed successfully",
+		slog.Any("fields", fields),
+		slog.Any("tables", tables),
+		slog.String("condition", condition),
+	)
+
 	return result, nil
 }
 

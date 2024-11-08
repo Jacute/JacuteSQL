@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+881,Passat,Jaguar,random_type#u4n9l3,random_fueltype#9zx28k
+882,Gto,Lada,random_type#m3jcl1,random_fueltype#7z57vg
+883,Tt Roadster Quattro,Lamborghini,random_type#7at33n,random_fueltype#fjptd5
+884,Fx35 Rwd,Porsche,random_type#7izyl1,random_fueltype#510z0y
+885,Cayenne,Spyker,random_type#6kx59y,random_fueltype#3d64hz
+886,Cl65 Amg,Fiat,random_type#ln249r,random_fueltype#1has8h
+887,Focus  Fwd,Noble,random_type#8q24q6,random_fueltype#7ttl50
+888,Highlander Hybrid 2wd,Jeep,random_type#3nm1im,random_fueltype#omo53j
+889,Insight,Honda,random_type#mzmvk9,random_fueltype#23x5s8
+890,Frontier V6-4wd,Toyota,random_type#suyihe,random_fueltype#l8si13
+891," 530xi Sport Wagon",Land Rover,random_type#rf7o7d,random_fueltype#b8wy5n
+892,C280 4matic,McLaren,random_type#q835b5,random_fueltype#20mf52
+893,G35,Alfa Romeo,random_type#5v562h,random_fueltype#8zspyr
+894,Camry Solara Convertible,Suzuki,random_type#em7efx,random_fueltype#15pnj3
+895,Vue Fwd,Volkswagen,random_type#dd5rd5,random_fueltype#yzi15n
+896,Grand Vitara Xv6,Dodge,random_type#zlz72x,random_fueltype#196962
+897,L-140/715 Gallardo,Daihatsu,random_type#470h8e,random_fueltype#817634
+898,Mazda 5,Bugatti,random_type#t2c96p,random_fueltype#yxpkga
+899," 325xi Sport Wagon",Lancia,random_type#t1jy78,random_fueltype#4tj110
+900,Range Rover Sport,Chevrolet,random_type#o7az7d,random_fueltype#u24n23

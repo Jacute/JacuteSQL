@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+361,Azera,Lada,random_type#ra7re8,random_fueltype#7698fp
+362,Camry Solara Convertible,Daihatsu,random_type#g13b09,random_fueltype#q8q9mr
+363,Highlander Hybrid 4wd,Corvette,random_type#bs6e19,random_fueltype#rj6r1g
+364,Q45,Jeep,random_type#id8lvi,random_fueltype#inll98
+365,A6,Spyker,random_type#14c3hs,random_fueltype#284tu6
+366,Frontier V6-2wd,Ligier,random_type#502j7t,random_fueltype#7ex4b3
+367,Slk350,Daihatsu,random_type#cs10b3,random_fueltype#z9887l
+368,Colorado 4wd,Mitsubishi,random_type#ev24rc,random_fueltype#aopli4
+369,Maybach 57s,Tesla,random_type#o6353n,random_fueltype#4l2976
+370,Jetta,DAF,random_type#3y4se2,random_fueltype#7ues64
+371,Gs 300/gs 430,Dino,random_type#7b7424,random_fueltype#f5i72w
+372,M35,Ford,random_type#1pg78t,random_fueltype#80t50p
+373,Frontier V6-2wd,Bugatti,random_type#ejy3g0,random_fueltype#m82zl5
+374,Grand Vitara Xl-7,KIA,random_type#2hbupf,random_fueltype#2b5x4u
+375,A8 L,Ligier,random_type#90vcw0,random_fueltype#un8i54
+376," Mini Cooper",Chrysler,random_type#iyoxvs,random_fueltype#4e7non
+377,Aveo,Hyundai,random_type#8u32sv,random_fueltype#61c11w
+378,A6 Avant Quattro,Lotus,random_type#9h6547,random_fueltype#4r6753
+379,Verona,Chrysler,random_type#435r7n,random_fueltype#8mvxn6
+380,G1500/2500 Chevy Van 2wd,Daihatsu,random_type#4j7arr,random_fueltype#16a14n

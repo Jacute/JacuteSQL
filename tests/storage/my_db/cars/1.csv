@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1,Corvette,Ligier,random_type#h86azu,random_fueltype#5h7ft7
+2,Sorento 4wd,Ford,random_type#k484b1,random_fueltype#i861b8
+3,Fx45 Awd,Spyker,random_type#30xwss,random_fueltype#s34l0g
+4,G15/25chev Van 2wd Conv,Mazda,random_type#w79lg3,random_fueltype#9mvn67
+5,Ferrari F141,Ford,random_type#v2f678,random_fueltype#dm437w
+6,F150 Ffv  4wd,Lada,random_type#25w62i,random_fueltype#v0g7k2
+7,C1500 Suburban 2wd,Hyundai,random_type#j45664,random_fueltype#87dvb6
+8,S80 Fwd,Pontiac,random_type#9z9g87,random_fueltype#wa7r86
+9,Ram 1500 Pickup 2wd,Lexus,random_type#z2u6fg,random_fueltype#40i679
+10,A4 Cabriolet,Benz,random_type#5f45y7,random_fueltype#csw6y0
+11,C1500 Tahoe 2wd,Pontiac,random_type#rro5j4,random_fueltype#inl13g
+12,Liberty/cherokee 4wd,Volvo,random_type#1omik7,random_fueltype#83v585
+13,Rav4 4wd,Dino,random_type#oo5jv1,random_fueltype#3zen8c
+14,Murano Awd,Corvette,random_type#j3s8yv,random_fueltype#99pi6w
+15,Focus  Fwd,Lancia,random_type#kojji7,random_fueltype#266wgb
+16,Cayenne,Smart,random_type#r071j2,random_fueltype#v7e5yp
+17,Outback Wagon Awd,Seat,random_type#377m86,random_fueltype#u8t060
+18,C1500 Suburban 2wd,Mini,random_type#823d33,random_fueltype#838y83
+19,Sl65 Amg,Rolls-Royce,random_type#ib74i0,random_fueltype#ee9dxq
+20," Z4 3.0si",KIA,random_type#k8j6ct,random_fueltype#i1dz13

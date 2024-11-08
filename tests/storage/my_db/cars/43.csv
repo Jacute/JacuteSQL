@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+841,Sportage 2wd,Dacia,random_type#cx4u2w,random_fueltype#nvbn5r
+842,C1500 Silverado 2wd,Mercedes-Benz,random_type#z2e67v,random_fueltype#576a21
+843,Legacy Wagon Awd,Lancia,random_type#nl61v6,random_fueltype#216tj0
+844,Sl65 Amg,Saab,random_type#1sot8b,random_fueltype#lrv2v6
+845," Z4 M Roadster",DAF,random_type#5z9504,random_fueltype#i4a3wd
+846,S60 Fwd,Koenigsegg,random_type#1rv6iq,random_fueltype#nu3gk5
+847,C15 Silverado Hybrid 2wd,Mini,random_type#7b6vfq,random_fueltype#7e4j67
+848,B4000 4wd,Volkswagen,random_type#23dlk5,random_fueltype#129q5p
+849,G15/25chev Van 2wd Conv,Fiat,random_type#a0n19a,random_fueltype#t55d4n
+850,C1500 Tahoe 2wd,Mini,random_type#o0777g,random_fueltype#95f6g9
+851,Cr-v 4wd,Ford,random_type#3624o1,random_fueltype#2izieu
+852,Sequoia 4wd,Alfa Romeo,random_type#9z7g34,random_fueltype#1cp780
+853,Rx 400h 4wd,Lamborghini,random_type#20lr5y,random_fueltype#y64147
+854,Quattroporte,Lotus,random_type#dg6jp7,random_fueltype#mo2q56
+855,Grand Vitara Xv6,Mini,random_type#4f0l9x,random_fueltype#n28rrr
+856,Frontier V6-4wd,Renault,random_type#7w08qm,random_fueltype#r11j7m
+857,Carrera 2 Coupe,Datsun,random_type#pl5zr4,random_fueltype#7800yx
+858,S4 Cabriolet,Chevrolet,random_type#3h06z8,random_fueltype#xkzpmk
+859,Colorado Crew Cab 2wd,Skoda,random_type#313989,random_fueltype#9d107i
+860,Vue Fwd,Suzuki,random_type#1y6v52,random_fueltype#8knq82

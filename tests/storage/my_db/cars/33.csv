@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+641,A4 Cabriolet,Lancia,random_type#gcy18z,random_fueltype#8m2meh
+642,C70 Convertible,Opel,random_type#d4tc1b,random_fueltype#9jnb92
+643,Crown Victoria Police,Daihatsu,random_type#eedja8,random_fueltype#74c994
+644,Rio,Lancia,random_type#9nfs3m,random_fueltype#3z23qp
+645," 325ci Convertible",Lada,random_type#5m13fb,random_fueltype#x780j9
+646,Odyssey 2wd,Chrysler,random_type#9myb09,random_fueltype#k14l4n
+647,G6 Gt/gtp Convertible,Martini,random_type#7d6638,random_fueltype#ccia85
+648,Passat Wagon 4motion,Mercedes-Benz,random_type#g2o0mq,random_fueltype#63r7sl
+649,Xc 90 Fwd,Mercedes-Benz,random_type#k63v61,random_fueltype#ectbbw
+650,Mark Lt,KIA,random_type#11988z,random_fueltype#9pxijn
+651," M5",Rolls-Royce,random_type#7a81eo,random_fueltype#wfhtww
+652,Trailblazer 4wd,Benz,random_type#d5686u,random_fueltype#8ewds4
+653," 325xi Sport Wagon",Lamborghini,random_type#31j5sv,random_fueltype#rtu79k
+654,Sportage 2wd,Koenigsegg,random_type#zw576s,random_fueltype#ku4yt3
+655,A6 Avant Quattro,Daihatsu,random_type#l8z530,random_fueltype#20667o
+656,Es 330,Skoda,random_type#95522g,random_fueltype#306noc
+657,Equinox Awd,Lincoln,random_type#75l347,random_fueltype#93w6f3
+658,Monte Carlo,Daihatsu,random_type#sru2ls,random_fueltype#3v68aw
+659,Accord Hybrid,Lexus,random_type#n8mg70,random_fueltype#61kw15
+660,Db9 Coupe,Pontiac,random_type#js53rd,random_fueltype#4hlcau

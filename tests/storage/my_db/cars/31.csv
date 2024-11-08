@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+601,Highlander 4wd,Opel,random_type#1k3y0v,random_fueltype#drmukj
+602,Mazda 3,Bentley,random_type#ql2u59,random_fueltype#98373y
+603,Sequoia 4wd,Mercedes-Benz,random_type#fn7971,random_fueltype#ro4n5o
+604,Cayman S,BMW,random_type#3f7zk2,random_fueltype#h0u201
+605,Pilot 2wd,Chrysler,random_type#sa1f95,random_fueltype#57qee4
+606,Mx-5,Mitsubishi,random_type#14kue3,random_fueltype#c29fvv
+607,Phaeton,Martini,random_type#aij1de,random_fueltype#v7btld
+608,Srx 2wd,Ligier,random_type#1b06fz,random_fueltype#l538po
+609,Colorado Cab Chassis Inc 2wd,Skoda,random_type#49tw0k,random_fueltype#q0t957
+610,Ssr Pickup 2wd,Daewoo,random_type#4qnv8b,random_fueltype#cqbyk2
+611,Equinox Fwd,Lincoln,random_type#ql79v1,random_fueltype#i786w3
+612,Monte Carlo,Benz,random_type#y3dhs0,random_fueltype#pw87h2
+613," 325xi Sport Wagon",Lamborghini,random_type#jct455,random_fueltype#8vu4yo
+614,Spectra(ld),Audi,random_type#uiep62,random_fueltype#wk95cl
+615," X5 4.8is",Jeep,random_type#izs2xo,random_fueltype#mt6nu5
+616,Mustang,Mitsubishi,random_type#354e0m,random_fueltype#96794c
+617,Gs 300 4wd,Jeep,random_type#27z0pz,random_fueltype#jnq9rg
+618,Clk350 (cabriolet),Datsun,random_type#t69xp1,random_fueltype#qc18rr
+619,Vue Awd,Lamborghini,random_type#y4ru57,random_fueltype#4pfes9
+620,Accord,Rover,random_type#246vhz,random_fueltype#6rls9e

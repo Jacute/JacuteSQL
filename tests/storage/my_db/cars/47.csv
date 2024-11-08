@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+921,Titan 2wd,Hummer,random_type#4r8nrp,random_fueltype#wq78uo
+922,Q45 Sport,Saab,random_type#1v1j4f,random_fueltype#9sh284
+923,K1500 Avalanche 4wd,DAF,random_type#sd2x86,random_fueltype#780927
+924,Cts,Daihatsu,random_type#4c98lq,random_fueltype#e62681
+925,S4 Avant,Nissan,random_type#bd401y,random_fueltype#62w2ot
+926,Scion Xa,Farboud,random_type#32a39e,random_fueltype#7euhav
+927,Clk350 (cabriolet),BMW,random_type#4is349,random_fueltype#e7w0g3
+928,Commander 4wd,Maserati,random_type#z5o2a3,random_fueltype#ob5417
+929,Gt 2wd,Lada,random_type#281239,random_fueltype#4070v1
+930,C70 Convertible,Lexus,random_type#b50c81,random_fueltype#43b657
+931,Srx 2wd,Volvo,random_type#4cd7vy,random_fueltype#9qbb5d
+932,Expedition 2wd,Seat,random_type#3mtmye,random_fueltype#wim807
+933,Optima(ms),Maybach,random_type#222i63,random_fueltype#tslqb8
+934,Camry,Dino,random_type#8486w4,random_fueltype#maw041
+935,Ram 1500 Pickup 4wd,Seat,random_type#3smy82,random_fueltype#viosqd
+936,Outback Wagon Awd,Ford,random_type#o0gz79,random_fueltype#2u2a5n
+937,Ranger Pickup 4wd,Honda,random_type#7r5755,random_fueltype#59jkmu
+938,Gti,Seat,random_type#efszu1,random_fueltype#3q4m1t
+939,Pacifica Awd,Pontiac,random_type#drtaz2,random_fueltype#x8mwr1
+940,Slk280,Datsun,random_type#nl2233,random_fueltype#7q7p8k

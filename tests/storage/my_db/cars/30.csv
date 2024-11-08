@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+581," X5 4.8is",Hyundai,random_type#l6m6ri,random_fueltype#1w9w00
+582,Q45,Spyker,random_type#q7853a,random_fueltype#v978mq
+583,Monte Carlo,Maybach,random_type#jjkxcv,random_fueltype#9z05eb
+584,Gt 2wd,Fiat,random_type#hl4nfz,random_fueltype#j8902v
+585,Sl500,Volvo,random_type#358jfz,random_fueltype#uf9926
+586,Ram 1500 Pickup 4wd,Ferrari,random_type#i3oj5z,random_fueltype#u9al24
+587,S4,Fiat,random_type#g95xmc,random_fueltype#l09702
+588,Pilot 4wd,Citroen,random_type#8hen6b,random_fueltype#28d4br
+589,Cayenne Turbo,Jeep,random_type#2eyn8l,random_fueltype#9aa89u
+590,Gs 300 4wd,Mitsubishi,random_type#rq9525,random_fueltype#uq038r
+591,Titan 4wd,Spyker,random_type#do16xr,random_fueltype#ylg911
+592,Colorado Crew Cab 4wd,Noble,random_type#t9823c,random_fueltype#wv1dcr
+593,Armada 2wd,Lamborghini,random_type#d6am6p,random_fueltype#3u80pd
+594,Ridgeline 4wd,Alfa Romeo,random_type#38516m,random_fueltype#88gf02
+595," X3",Audi,random_type#56o3z0,random_fueltype#9qxq2q
+596,Rabbit,Bentley,random_type#842crg,random_fueltype#yt72bt
+597," M6",Renault,random_type#27uj14,random_fueltype#zq103n
+598,Lr3,Vauxhall,random_type#969oxl,random_fueltype#1087ln
+599,Escape Hybrid 4wd,Dacia,random_type#z9mz27,random_fueltype#nq25fb
+600,300c/srt-8,Corvette,random_type#vne137,random_fueltype#5mg19z

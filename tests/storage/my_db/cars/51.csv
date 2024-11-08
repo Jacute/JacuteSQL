@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1001,Rx 400h 4wd,Toyota,random_type#6w9cl8,random_fueltype#1fe7k3
+1002,A4,DAF,random_type#3bl7zz,random_fueltype#7951yk
+1003,Grand Vitara Xl-7 4wd,Vauxhall,random_type#73g9pj,random_fueltype#nyrbs6
+1004,Envoy Xl 4wd,Ligier,random_type#pzf090,random_fueltype#yx9p0t
+1005,Solstice,Lamborghini,random_type#159p5f,random_fueltype#xz4u14
+1006," Z4 3.0si",Maybach,random_type#gatr33,random_fueltype#n1i78r
+1007,Xterra 2wd,Lincoln,random_type#a544tr,random_fueltype#fh791s
+1008,Mdx 4wd,Rolls-Royce,random_type#12d079,random_fueltype#yd53v0
+1009," 760li",Skoda,random_type#m2h797,random_fueltype#14rt39
+1010,Phantom,Hyundai,random_type#b0i4r8,random_fueltype#b272vq
+1011,Tt Coupe Quattro,Dacia,random_type#1i8zws,random_fueltype#2b4911
+1012,C8 Spyder,Noble,random_type#73ph64,random_fueltype#2da96v
+1013,V12 Vanquish S,Fiat,random_type#581zli,random_fueltype#750jhm
+1014,H3 4wd,Hyundai,random_type#k185fx,random_fueltype#t13308
+1015,C8 Spyder,DAF,random_type#6811c3,random_fueltype#3lpq4j
+1016,Maybach 62,Smart,random_type#l9f9yb,random_fueltype#jk3k3x
+1017,Xk8 Convertible,Daewoo,random_type#u4137v,random_fueltype#699256
+1018,Carrera 2 Coupe,Toyota,random_type#5la4kr,random_fueltype#g56s7j
+1019,C8 Spyder,Smart,random_type#azwk29,random_fueltype#1g4u3u
+1020,F150 Supercrew 4wd,McLaren,random_type#98lz7g,random_fueltype#986q0m

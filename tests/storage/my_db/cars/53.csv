@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+1041,A6 Avant Quattro,DAF,random_type#o5ra3y,random_fueltype#4qco13
+1042," 760li",Hummer,random_type#9x7kd8,random_fueltype#8u183n
+1043,Escalade 2wd,Mini,random_type#wbs0gh,random_fueltype#hk9i7s
+1044,Equinox Fwd,Opel,random_type#vq625f,random_fueltype#2mfel7
+1045,Maxima,Seat,random_type#900gw2,random_fueltype#2hu99s
+1046,Sportage 4wd,Noble,random_type#j926f2,random_fueltype#13jloe
+1047," X3",Land Rover,random_type#8ivv58,random_fueltype#5ub5se
+1048,Thunderbird,Land Rover,random_type#lkgtwo,random_fueltype#ajv91b
+1049,Yaris,Land Rover,random_type#jeofa8,random_fueltype#5jm26t
+1050,Ml500,DAF,random_type#rgp5q0,random_fueltype#pq5y1c
+1051,A4,Dodge,random_type#9y5e6a,random_fueltype#2ht39o
+1052,Quest,Noble,random_type#xnhqj8,random_fueltype#541ir4
+1053,Tl,Nissan,random_type#u5855x,random_fueltype#5721qu
+1054," 530xi Sport Wagon",Bugatti,random_type#9sca0f,random_fueltype#ash4qh
+1055,Tsx,Bugatti,random_type#i33253,random_fueltype#4h1deb
+1056,Mazda 5,Honda,random_type#u5s7t8,random_fueltype#f74u63
+1057,Colorado Crew Cab 4wd,Mazda,random_type#ukf2da,random_fueltype#4222i6
+1058,Odyssey 2wd,Aston Martin,random_type#78flhg,random_fueltype#3067hl
+1059,A4 Cabriolet,Hummer,random_type#rf8f3w,random_fueltype#2oe9i1
+1060,Rav4 2wd,Alfa Romeo,random_type#v2449v,random_fueltype#q339tr

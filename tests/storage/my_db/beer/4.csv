@@ -1,0 +1,21 @@
+beer_pk,name,style,alcohol,ibu,blg
+61,Schneider Aventinus,Light Hybrid Beer,4.8%,41 IBU,11.6°Blg
+62,Sierra Nevada Celebration Ale,German Wheat And Rye Beer,5.8%,96 IBU,17.4°Blg
+63,Weihenstephaner Hefeweissbier,Wood-aged Beer,8.6%,28 IBU,17.9°Blg
+64,Trappistes Rochefort 8,Belgian And French Ale,2.4%,95 IBU,15.1°Blg
+65,Trois Pistoles,Belgian And French Ale,2.4%,100 IBU,16.6°Blg
+66,Shakespeare Oatmeal,Belgian Strong Ale,6.8%,84 IBU,18.1°Blg
+67,Péché Mortel,Scottish And Irish Ale,9.2%,37 IBU,6.8°Blg
+68,Alpha King Pale Ale,Bock,6.8%,51 IBU,11.3°Blg
+69,Old Rasputin Russian Imperial Stout,Smoke-flavored,9.0%,94 IBU,11.7°Blg
+70,Dreadnaught IPA,Wood-aged Beer,4.0%,97 IBU,9.5°Blg
+71,Samuel Smith’s Oatmeal Stout,English Brown Ale,2.7%,67 IBU,7.8°Blg
+72,Samuel Smith’s Imperial IPA,Dark Lager,4.2%,39 IBU,12.5°Blg
+73,Sierra Nevada Celebration Ale,Pilsner,9.4%,38 IBU,10.8°Blg
+74,Bourbon County Stout,English Brown Ale,7.9%,56 IBU,17.3°Blg
+75,Duvel,Strong Ale,8.7%,60 IBU,18.9°Blg
+76,Double Bastard Ale,Stout,5.4%,41 IBU,17.1°Blg
+77,Weihenstephaner Hefeweissbier,Smoke-flavored,2.5%,73 IBU,17.0°Blg
+78,Bourbon County Stout,European Amber Lager,9.6%,11 IBU,5.2°Blg
+79,Dreadnaught IPA,Strong Ale,4.2%,21 IBU,7.6°Blg
+80,Hercules Double IPA,Smoke-flavored,6.9%,56 IBU,12.4°Blg

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+521,9-3 Convertible,Seat,random_type#6v92j3,random_fueltype#n83f57
+522,A4 Cabriolet Quattro,Hummer,random_type#o8t8vc,random_fueltype#xu3457
+523,Accord Hybrid,De Lorean,random_type#y6jtwz,random_fueltype#mmqnbs
+524,Focus Station Wag,Daihatsu,random_type#17502s,random_fueltype#cz5chh
+525,Vue Fwd,Maserati,random_type#qq9173,random_fueltype#764429
+526,Armada 2wd,Farboud,random_type#1bwe12,random_fueltype#1uys98
+527,Tucson 2wd,Lancia,random_type#1835gt,random_fueltype#73wl5i
+528,S40 Fwd,Ferrari,random_type#8t6156,random_fueltype#n6u03w
+529,Escape Hybrid 4wd,Smart,random_type#4cwwx1,random_fueltype#ek598k
+530," 330ci Convertible",Rover,random_type#c66k9s,random_fueltype#1z0372
+531,B4000 4wd,Benz,random_type#i56677,random_fueltype#7x73a9
+532," Z4 3.0 Si Coupe",Jaguar,random_type#fk1vz2,random_fueltype#49oukj
+533,V70 Fwd,Nissan,random_type#nau1hv,random_fueltype#4n0m0i
+534," 330ci Convertible",Jeep,random_type#wk6w39,random_fueltype#78730x
+535,Xj8,McLaren,random_type#jbb584,random_fueltype#yl9i1n
+536,Prius,Bentley,random_type#ikki6t,random_fueltype#e9sucz
+537,S2000,Volvo,random_type#6mp4ks,random_fueltype#869qo7
+538,Colorado 4wd,Pontiac,random_type#202fi1,random_fueltype#524ig1
+539,Tt Roadster,Maserati,random_type#v8nelo,random_fueltype#hzh5j2
+540,Db9 Volante,Spyker,random_type#6hhhmi,random_fueltype#6oe1rn

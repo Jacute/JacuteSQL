@@ -4,6 +4,7 @@ import (
 	suite "JacuteSQL/tests/suite/app"
 	"bufio"
 	"fmt"
+	"math/rand"
 	"net"
 	"runtime"
 	"strings"
@@ -11,10 +12,22 @@ import (
 	"testing"
 	"time"
 
+	fakeit "github.com/brianvoe/gofakeit"
 	"github.com/stretchr/testify/require"
 )
 
 const serverAddr = "127.0.0.1:7432"
+
+func randomString(n int) string {
+	result := ""
+
+	for i := 0; i < n; i++ {
+		letter := rune(65 + rand.Intn(26))
+		result += string(letter)
+	}
+
+	return result
+}
 
 func handleRequest(t *testing.T, id int, query string) string {
 	conn, err := net.Dial("tcp", serverAddr)
@@ -38,7 +51,8 @@ func handleRequest(t *testing.T, id int, query string) string {
 		return ""
 	}
 
-	output, err := reader.ReadString('\n')
+	output, err := reader.ReadString('>')
+	output = output[:len(output)-2]
 	if err != nil {
 		t.Errorf("goroutine %d: could not read response: %v", id, err)
 		return ""
@@ -85,7 +99,37 @@ func TestBlocks(t *testing.T) {
 		}
 	}
 
-	require.Equal(t, 2, successCount)
+	require.Equal(t, maxGoroutines, successCount)
+
+	st.App.Stop()
+}
+
+func TestBlocks2(t *testing.T) {
+	maxGoroutines := runtime.NumCPU()
+	runtime.GOMAXPROCS(maxGoroutines)
+
+	st := suite.New(t)
+	FillTableBeer(t, st.Storage, 1100)
+	FillTableCars(t, st.Storage, 1100)
+	go st.App.MustRun()
+	time.Sleep(2 * time.Second)
+
+	var wg sync.WaitGroup
+	wg.Add(maxGoroutines)
+
+	rStr1 := randomString(32)
+	rStr2 := randomString(32)
+	for i := 0; i < maxGoroutines; i++ {
+		go func(id int) {
+			defer wg.Done()
+
+			handleRequest(t, id, fmt.Sprintf("INSERT INTO beer VALUES ('%s', '%s', '%s', '%s', '%s')", rStr1, rStr2, fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()))
+		}(i)
+	}
+	wg.Wait()
+
+	result := handleRequest(t, 0, fmt.Sprintf("SELECT beer.beer_pk FROM beer WHERE beer.name = '%s' AND beer.style = '%s'", rStr1, rStr2))
+	require.Equal(t, maxGoroutines, strings.Count(result, "\n")-2)
 
 	st.App.Stop()
 }

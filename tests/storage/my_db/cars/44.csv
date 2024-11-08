@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+861,Phantom,Daewoo,random_type#q1u883,random_fueltype#1d696n
+862,C1500 Tahoe 2wd,Rolls-Royce,random_type#260ti3,random_fueltype#5lq9n7
+863,Ml500,Ford,random_type#2c3701,random_fueltype#b006h8
+864," X3",Porsche,random_type#8e3f41,random_fueltype#1fy401
+865,Impala,Peugeot,random_type#kbfmy5,random_fueltype#93bi69
+866,Es 330,Dodge,random_type#7527be,random_fueltype#rja2r9
+867,Jetta,Lexus,random_type#wp0fv2,random_fueltype#81745f
+868,Amanti,Bugatti,random_type#lam0h4,random_fueltype#ncpt47
+869,G6 Gt/gtp Convertible,Cadillac,random_type#46zc5y,random_fueltype#61pgo8
+870,350z Roadster,Ford,random_type#952g81,random_fueltype#k241bg
+871,Ml350,Maybach,random_type#8bn809,random_fueltype#2o7mo2
+872,Grand Cherokee 4wd,Volvo,random_type#93er1k,random_fueltype#yrupii
+873,Sienna 4wd,Suzuki,random_type#572515,random_fueltype#m3w1gc
+874,Galant,Jaguar,random_type#l401fx,random_fueltype#8l7ip1
+875,F150 Ffv  2wd,Dacia,random_type#gymty5,random_fueltype#36o0g9
+876,Grand Vitara Xl-7,Nissan,random_type#k9273z,random_fueltype#mj0l5b
+877,Sedona,Ferrari,random_type#q63w51,random_fueltype#w5ru2t
+878,Camry Solara,Peugeot,random_type#2a0j14,random_fueltype#48j57b
+879,Escape Hybrid Fwd,Lexus,random_type#93yn55,random_fueltype#943f6s
+880,Continental Gt,Nissan,random_type#trxe37,random_fueltype#ud1r05

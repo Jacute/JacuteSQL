@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+461,Rx 400h 4wd,Lexus,random_type#5076w1,random_fueltype#w9j625
+462,Mazda 6,Benz,random_type#5n3cmn,random_fueltype#1jkb3a
+463,Db9 Coupe,Daihatsu,random_type#d78029,random_fueltype#833kaj
+464,Mazda 5,Lotus,random_type#ej1984,random_fueltype#d1wxim
+465,Forenza,Skoda,random_type#10xb4x,random_fueltype#4u2w6z
+466,Lancer Sportback,Maserati,random_type#npno0h,random_fueltype#jlum5e
+467,Boxster S,Smart,random_type#2u2q40,random_fueltype#5go1np
+468,Escape Hybrid 4wd,Ford,random_type#qd05oy,random_fueltype#c6et2e
+469,Colorado 2wd,Audi,random_type#wr5g75,random_fueltype#754113
+470,Durango 4wd,Cadillac,random_type#w318z9,random_fueltype#kaaqg0
+471,A4 Avant Quattro,Subaru,random_type#3v188p,random_fueltype#gxr754
+472,Sportage 2wd,Peugeot,random_type#ate2tu,random_fueltype#e0s5og
+473,Tucson 4wd,Cadillac,random_type#bv432w,random_fueltype#4rq3g2
+474,Aerio Sx Awd,Renault,random_type#d0j15m,random_fueltype#ni1c93
+475,Outlander 2wd,Audi,random_type#zo32n0,random_fueltype#k07u29
+476,Toyota Tundra 4wd,Martini,random_type#92dbwa,random_fueltype#7ot9lp
+477,Explorer 4wd,De Lorean,random_type#5ym4n6,random_fueltype#2m7aiz
+478,K1500 Tahoe 4wd,KIA,random_type#a883e7,random_fueltype#hi3wk3
+479," M3",Opel,random_type#1069hv,random_fueltype#5o57hq
+480,S60 R Awd,Dodge,random_type#krlia3,random_fueltype#a4p0i3

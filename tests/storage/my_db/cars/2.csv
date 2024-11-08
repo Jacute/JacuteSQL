@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+21,F150 Ffv  2wd,Renault,random_type#bo39z8,random_fueltype#sshzu2
+22,K1500 Silverado 4wd,Benz,random_type#5uv7k1,random_fueltype#281zm3
+23,Cts,Koenigsegg,random_type#r9v2ax,random_fueltype#92uu61
+24,Rl,Volvo,random_type#7y5or2,random_fueltype#596bd8
+25,Tt Roadster,Mercedes-Benz,random_type#5ii3ig,random_fueltype#j3y6i8
+26,C8 Spyder,Jaguar,random_type#2wp4qx,random_fueltype#8ts7p6
+27,Es 330,Subaru,random_type#wh3s4d,random_fueltype#94e45s
+28,Commander 4wd,Jeep,random_type#oaj142,random_fueltype#uh281f
+29,V70 Fwd,Peugeot,random_type#1ac84o,random_fueltype#syhsw5
+30,Clk350 (cabriolet),Noble,random_type#h4m9t0,random_fueltype#qsi4o8
+31,Spectra(ld),Maybach,random_type#9782c0,random_fueltype#65q11r
+32,Azera,Chevrolet,random_type#q1xo67,random_fueltype#tbjb44
+33,S350,Bugatti,random_type#txg34h,random_fueltype#9eu7py
+34,Scion Xb,Corvette,random_type#58au7k,random_fueltype#bb4nuu
+35,Envoy Xl 4wd,Jaguar,random_type#zt604a,random_fueltype#9e78rz
+36,Maybach 57s,Porsche,random_type#503t7s,random_fueltype#3ydjjl
+37,Maxima,Lotus,random_type#17b11i,random_fueltype#ochnk0
+38," X5",Opel,random_type#4w56i0,random_fueltype#wpxs6h
+39,Impreza Awd,Ford,random_type#6se44n,random_fueltype#919vf5
+40,Sienna 4wd,Benz,random_type#78308c,random_fueltype#wmg383

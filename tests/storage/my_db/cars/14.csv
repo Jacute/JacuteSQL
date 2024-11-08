@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+261,S350,Koenigsegg,random_type#83n649,random_fueltype#89no60
+262,Sts,Mazda,random_type#c85oe4,random_fueltype#803i5t
+263,Navigator 2wd,Pontiac,random_type#z257ih,random_fueltype#xx65tx
+264,Impala,Hyundai,random_type#41ttlx,random_fueltype#9v5qk2
+265,Tiburon,KIA,random_type#w0xf1f,random_fueltype#81eyz0
+266,Maxima,Dodge,random_type#67ik87,random_fueltype#2bo346
+267,G6,Maserati,random_type#hl5y53,random_fueltype#2nt4bm
+268,Quest,Daihatsu,random_type#yd1i95,random_fueltype#7we3tq
+269,S2000,Land Rover,random_type#4z7d32,random_fueltype#k03uxq
+270,E150 Club Wagon,Citroen,random_type#9q8j5r,random_fueltype#3s4a17
+271,Accord Hybrid,Toyota,random_type#4m382d,random_fueltype#jef7g6
+272,Envoy 2wd,Suzuki,random_type#85f0l5,random_fueltype#66st6l
+273,Forester Awd,Saab,random_type#4972wl,random_fueltype#uyc820
+274,Sienna 2wd,Lamborghini,random_type#7jv2b7,random_fueltype#3x5tt7
+275,Camry,KIA,random_type#3jhamb,random_fueltype#n95374
+276,C280,Subaru,random_type#9i996r,random_fueltype#u49hu7
+277,Q45,Ford,random_type#w65k86,random_fueltype#3jeudd
+278,M35x,Nissan,random_type#wf2hl7,random_fueltype#7r5raq
+279,Legacy Wagon Awd,Corvette,random_type#qy9315,random_fueltype#s14y3c
+280,Gs 300 4wd,Mazda,random_type#wg41t6,random_fueltype#bz1e66

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+101,S80 Fwd,Lada,random_type#64a98l,random_fueltype#n031t8
+102,Forenza,McLaren,random_type#4704q5,random_fueltype#om988f
+103,Ridgeline 4wd,Dodge,random_type#36597s,random_fueltype#bv244f
+104,Insight,Datsun,random_type#s6w56u,random_fueltype#l55kso
+105,G1500/2500 Chevy Van 2wd,Skoda,random_type#991485,random_fueltype#ker01y
+106,Lancer Sportback,Lotus,random_type#9c3em6,random_fueltype#wl4799
+107,Endeavor 2wd,Dodge,random_type#760ffj,random_fueltype#o736w9
+108,New Beetle Convertible,Maybach,random_type#65w0x1,random_fueltype#58ugom
+109,Gt 2wd,Dino,random_type#49v375,random_fueltype#38gy8b
+110,K1500 Avalanche 4wd,Benz,random_type#n4k25i,random_fueltype#cyzw85
+111,Gt 2wd,Bugatti,random_type#79vy5b,random_fueltype#znc6l1
+112,M35,Ferrari,random_type#57r0sv,random_fueltype#d18a0i
+113," Mini Cooper S",Seat,random_type#sskhl9,random_fueltype#k8q3q5
+114,Phaeton,Maybach,random_type#j44s65,random_fueltype#m58f71
+115,Colorado Crew Cab 4wd,Mercedes,random_type#k19r7b,random_fueltype#2jkyn2
+116,Legacy Awd,Jeep,random_type#g8wjj9,random_fueltype#v62j0f
+117,Elise/exige,Chevrolet,random_type#ni1lc4,random_fueltype#eo2a44
+118,Passat,Chrysler,random_type#8pa40s,random_fueltype#672fn4
+119,Milan,Hyundai,random_type#p5407w,random_fueltype#97csmh
+120,Element 4wd,Subaru,random_type#kvhun2,random_fueltype#8m92jb

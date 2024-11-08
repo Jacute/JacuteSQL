@@ -10,6 +10,7 @@ import (
 	"os"
 	"path"
 	"strconv"
+	"strings"
 	"sync"
 	"testing"
 
@@ -19,17 +20,32 @@ import (
 )
 
 func FillTableBeer(t *testing.T, storage *storage.Storage, rowCount int) {
+	var wg sync.WaitGroup
+	wg.Add(rowCount)
 	for i := 0; i < rowCount; i++ {
-		err := storage.Insert("beer", []string{fakeit.BeerName(), fakeit.BeerStyle(), fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()})
-		require.Nil(t, err)
+		go func() {
+			beer := strings.ReplaceAll(fakeit.BeerName(), ",", "")
+			style := strings.ReplaceAll(fakeit.BeerStyle(), ",", "")
+
+			_, err := storage.Exec(fmt.Sprintf("INSERT INTO beer VALUES ('%s', '%s', '%s', '%s', '%s')", beer, style, fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()))
+			require.Nil(t, err)
+			wg.Done()
+		}()
 	}
+	wg.Wait()
 }
 
 func FillTableCars(t *testing.T, storage *storage.Storage, rowCount int) {
+	var wg sync.WaitGroup
+	wg.Add(rowCount)
 	for i := 0; i < rowCount; i++ {
-		err := storage.Insert("cars", []string{fakeit.CarModel(), fakeit.CarMaker(), "random_type" + fakeit.HexColor(), "random_fueltype" + fakeit.HexColor()})
-		require.Nil(t, err)
+		go func() {
+			_, err := storage.Exec(fmt.Sprintf("INSERT INTO cars VALUES ('%s', '%s', '%s', '%s')", fakeit.CarModel(), fakeit.CarMaker(), "random_type"+fakeit.HexColor(), "random_fueltype"+fakeit.HexColor()))
+			require.Nil(t, err)
+			wg.Done()
+		}()
 	}
+	wg.Wait()
 }
 
 func TestInsertHappyPath(t *testing.T) {
@@ -70,7 +86,12 @@ func TestInsertHappyPath(t *testing.T) {
 			// Check count of sheets
 			sheets, err := utils.GetSheetsFromFiles(tablepath)
 			assert.Nil(t, err)
-			assert.Equal(t, c.rowCount/st.Cfg.LoadedSchema.TuplesLimit+1, len(sheets))
+			expectedSheetsCount := c.rowCount / st.Cfg.LoadedSchema.TuplesLimit
+			if c.rowCount%st.Cfg.LoadedSchema.TuplesLimit != 0 {
+				expectedSheetsCount++
+			}
+
+			assert.Equal(t, expectedSheetsCount, len(sheets))
 		})
 	}
 }

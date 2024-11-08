@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+241,Ferrari 612 Scaglietti,Volkswagen,random_type#svx644,random_fueltype#35ot21
+242,Tl,Mini,random_type#aj6d2t,random_fueltype#st35fc
+243,Sl65 Amg,Daewoo,random_type#vhlc9k,random_fueltype#248637
+244,Phantom,Hyundai,random_type#305gn6,random_fueltype#243yq9
+245,Ls,Hummer,random_type#7x9t0s,random_fueltype#4l9fuc
+246,Focus  Fwd,Tesla,random_type#1x871r,random_fueltype#1u0u3q
+247,Highlander Hybrid 4wd,Lincoln,random_type#570ydk,random_fueltype#5sht5q
+248,A4 Cabriolet Quattro,Opel,random_type#94cpc1,random_fueltype#xukwll
+249," X3",Datsun,random_type#g7szm1,random_fueltype#7t6hi3
+250,Lancer Evolution,Vauxhall,random_type#m05yue,random_fueltype#726c22
+251,Durango 2wd,Cadillac,random_type#dsp4hb,random_fueltype#8u7r34
+252,Phantom,Chrysler,random_type#103ebd,random_fueltype#rua837
+253,Continental Flying Spur,Dacia,random_type#gifvo7,random_fueltype#sn31bh
+254,Sienna 4wd,Jaguar,random_type#8j8sdl,random_fueltype#b70h24
+255," 530i",Koenigsegg,random_type#g01h61,random_fueltype#29di2l
+256,Phaeton,Dacia,random_type#zab741,random_fueltype#n6yi21
+257," Z4 3.0si",Lancia,random_type#wj438e,random_fueltype#45lfsx
+258,Aerio Sx,Toyota,random_type#4kyr9u,random_fueltype#z2b86q
+259,Pt Cruiser,Tesla,random_type#d3553b,random_fueltype#am8n52
+260,Is 250 Awd,Lada,random_type#to8j37,random_fueltype#s594yz

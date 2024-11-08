@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+741,E320 Cdi,Lancia,random_type#77n7sf,random_fueltype#61udqc
+742,Slk350,Tesla,random_type#r5wi72,random_fueltype#1fa13u
+743,K15 Silverado Hybrid 4wd,Lancia,random_type#32qb0k,random_fueltype#szq222
+744,I-280 2wd Ext Cab,Ferrari,random_type#8198e4,random_fueltype#y5s7c8
+745,Monterey Wagon Fwd,Fiat,random_type#7ayqa6,random_fueltype#43zn61
+746,Freestyle Awd,Mercedes,random_type#4772r0,random_fueltype#puq1z9
+747,C280,Saab,random_type#35o1l0,random_fueltype#mdx7r1
+748,E320 Cdi,Suzuki,random_type#965uf2,random_fueltype#118mte
+749,Es 330,Volkswagen,random_type#8w0o97,random_fueltype#979i02
+750,C15 Silverado Hybrid 2wd,Ferrari,random_type#5x91g7,random_fueltype#12qf7x
+751,Cl65 Amg,Pontiac,random_type#k94044,random_fueltype#g003f6
+752,Pilot 2wd,Opel,random_type#l3q7ex,random_fueltype#l3y941
+753," X5",Benz,random_type#3ktk1t,random_fueltype#n8hq1y
+754,Rendezvous Fwd,Spyker,random_type#64olnw,random_fueltype#8gmxht
+755,Cls500,Pontiac,random_type#jg22a7,random_fueltype#b639t7
+756,E55 Amg (wagon),Ligier,random_type#40330v,random_fueltype#15ea00
+757,Murano Awd,Lada,random_type#s54qss,random_fueltype#ca5i4m
+758,Wrangler/tj 4wd,Suzuki,random_type#8z2i16,random_fueltype#8rt535
+759,Srx 2wd,Lada,random_type#22uwu9,random_fueltype#zt1v0b
+760,Sorento 2wd,Alfa Romeo,random_type#86bpzr,random_fueltype#282bu6

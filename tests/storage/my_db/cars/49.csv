@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+961,Scion Xb,Opel,random_type#8a0i73,random_fueltype#bm78d8
+962,Q45,Daewoo,random_type#119691,random_fueltype#m7874k
+963,Rendezvous Fwd,Land Rover,random_type#83d2dn,random_fueltype#8k341y
+964,Escalade Esv Awd,Chrysler,random_type#472026,random_fueltype#6p515u
+965,Town Car,Datsun,random_type#o80228,random_fueltype#rk72h5
+966,Cayenne Turbo,BMW,random_type#82p9iy,random_fueltype#w3ceq4
+967,Es 330,Renault,random_type#4a9n55,random_fueltype#14y348
+968,Trailblazer 4wd,McLaren,random_type#619ckc,random_fueltype#d86ky3
+969," Mini Cooper S Convertible",Citroen,random_type#424140,random_fueltype#7ry65k
+970,Ridgeline 4wd,BMW,random_type#74na81,random_fueltype#m0j06q
+971,Slk280,Mercedes-Benz,random_type#j0na20,random_fueltype#29v17k
+972,Explorer 2wd,Ford,random_type#49wgw6,random_fueltype#440470
+973,Quattroporte,Peugeot,random_type#8l9rim,random_fueltype#yqsr8s
+974,Quattroporte,Noble,random_type#v085j2,random_fueltype#rs78ph
+975,Boxster,Dino,random_type#v1wcdm,random_fueltype#9iwdef
+976,Endeavor 2wd,Rover,random_type#2h7729,random_fueltype#aq57hw
+977,Focus  Fwd,Suzuki,random_type#fbk30k,random_fueltype#948e6l
+978,Is 250 Awd,Lancia,random_type#hp2cry,random_fueltype#tkt46f
+979,A4 Avant Quattro,Honda,random_type#j5663i,random_fueltype#85e592
+980," X5",Spyker,random_type#800fys,random_fueltype#jz4lzo

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+121,Highlander Hybrid 4wd,Subaru,random_type#htej0x,random_fueltype#gkaxwm
+122,G1500/2500 Chevy Express 2wd,Dodge,random_type#k34ff9,random_fueltype#11jcyt
+123,Ls,Citroen,random_type#sm48p0,random_fueltype#60190e
+124,Avalon,Ford,random_type#c265oy,random_fueltype#7xyk42
+125,Mountaineer 4wd,McLaren,random_type#i66418,random_fueltype#kog666
+126,F430,Mercedes-Benz,random_type#f2u9px,random_fueltype#231af1
+127,Xc 70 Awd,Alfa Romeo,random_type#ez0i5x,random_fueltype#r0c5h3
+128,Carrera 2 Coupe,Porsche,random_type#33acvh,random_fueltype#9oq77e
+129,Murano Fwd,Opel,random_type#7w2al4,random_fueltype#2dy5bq
+130,Sc 430,Jaguar,random_type#868w45,random_fueltype#8dj85g
+131,Aerio,Mazda,random_type#6a6613,random_fueltype#5j8o5z
+132,G1500/2500 Chevy Van 2wd,Spyker,random_type#z085u2,random_fueltype#8xjv48
+133,Cayenne Turbo,Fiat,random_type#3y7c9f,random_fueltype#9d6l93
+134,9-5 Sedan,Opel,random_type#kolo30,random_fueltype#176w26
+135,K15 Silverado Hybrid 4wd,Ferrari,random_type#yd8d40,random_fueltype#41xc1a
+136,V50 Awd,Volkswagen,random_type#y0u5bu,random_fueltype#8sxt76
+137,A4,McLaren,random_type#qpn930,random_fueltype#y1jyna
+138,Pilot 2wd,Vauxhall,random_type#e5q7y2,random_fueltype#n6k5yq
+139,Focus Station Wag,Koenigsegg,random_type#z5427u,random_fueltype#t3jhwu
+140,Avalon,Fiat,random_type#3ygu05,random_fueltype#limjqm

@@ -1,0 +1,21 @@
+cars_pk,model,maker,type,fueltype
+401,Gt 2wd,Rolls-Royce,random_type#xk506v,random_fueltype#6yt7lv
+402,Rav4 4wd,Cadillac,random_type#m0mg0y,random_fueltype#z64459
+403,Insight,Martini,random_type#g36f37,random_fueltype#30z8db
+404,Grand Cherokee 4wd,Fiat,random_type#7xi576,random_fueltype#b7b5v6
+405," 325i",Dodge,random_type#k4f57v,random_fueltype#279599
+406,Limousine,Datsun,random_type#r0563c,random_fueltype#88frpi
+407,H3 4wd,Cadillac,random_type#fj9z90,random_fueltype#7c9xzc
+408," 750li",Lada,random_type#604qn2,random_fueltype#l95fb9
+409," Mini Cooper Convertible",Daewoo,random_type#ya6cm6,random_fueltype#kxmvf0
+410,A4 Avant Quattro,Maybach,random_type#6c8l93,random_fueltype#7018ux
+411,E320 Cdi,McLaren,random_type#2i2829,random_fueltype#n8342t
+412,Grand Marquis,De Lorean,random_type#r30zi3,random_fueltype#p44l9m
+413,B9 Tribeca Awd,Land Rover,random_type#9i954l,random_fueltype#mf4f6m
+414,Spectra(ld),Honda,random_type#d8h2ym,random_fueltype#sv7v9x
+415,Navigator 2wd,Rolls-Royce,random_type#v82d57,random_fueltype#n38667
+416,Rav4 2wd,Farboud,random_type#knv57f,random_fueltype#624f20
+417,Srx Awd,Subaru,random_type#2z4nu1,random_fueltype#7ieue9
+418,Montero,Dino,random_type#3uby3x,random_fueltype#lwrvyy
+419,E150 Econoline 2wd,Ferrari,random_type#70cytb,random_fueltype#col7m1
+420,M35x,Martini,random_type#b8l83f,random_fueltype#cs4qpl
