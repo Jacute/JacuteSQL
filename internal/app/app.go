@@ -121,7 +121,7 @@ func (a *App) handleConnection(conn net.Conn, wg *sync.WaitGroup) error {
 		}
 		conn.Write([]byte("command executed successfully\n"))
 		if cmdOutput != "" {
-			conn.Write([]byte("output:\n" + cmdOutput))
+			conn.Write([]byte("output:\n" + cmdOutput + "\n"))
 		}
 	}
 

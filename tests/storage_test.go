@@ -57,16 +57,16 @@ func TestInsertHappyPath(t *testing.T) {
 	}{
 		{
 			tableName: "beer",
-			rowCount:  500,
+			rowCount:  1000,
 		},
 		{
 			tableName: "cars",
-			rowCount:  500,
+			rowCount:  1000,
 		},
 	}
-
 	for _, c := range cases {
 		t.Run(c.tableName, func(tt *testing.T) {
+			tt.Parallel()
 			tablepath := st.Storage.TablePathes.Get(c.tableName).(string)
 
 			if c.tableName == "beer" {
@@ -116,7 +116,7 @@ func TestDeleteWhereHappyPath(t *testing.T) {
 	table := "beer"
 	tablepath := st.Storage.TablePathes.Get(table).(string)
 
-	err := st.Storage.Insert(table, []string{fakeit.BeerName(), fakeit.BeerStyle(), fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()})
+	_, err := st.Storage.Insert(table, []string{fakeit.BeerName(), fakeit.BeerStyle(), fakeit.BeerAlcohol(), fakeit.BeerIbu(), fakeit.BeerBlg()})
 	require.Nil(t, err)
 
 	// error column name

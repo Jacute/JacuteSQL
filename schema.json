@@ -2,7 +2,10 @@
     "name": "my_db",
     "tuples_limit": 20,
     "structure": {
-        "beer": ["name", "style", "alcohol", "ibu", "blg"],
-        "cars": ["model", "maker", "type", "fueltype"]
+        "user": ["username", "token"],
+        "order": ["user_id", "pair_id", "quantity", "price", "type", "closed"],
+        "user_lot": ["user_id", "lot_id", "quantity"],
+        "pair": ["first_lot_id", "second_lot_id"],
+        "lot": ["name"]
     }
 }

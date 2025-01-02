@@ -1,0 +1,11 @@
+services:
+  jacutesql:
+    container_name: jacutesql
+    build: .
+    restart: on-failure
+    ports:
+      - "127.0.0.1:7432:7432"
+    volumes:
+      - ./schema.json:/app/schema.json:ro
+      - ./config/config.yaml:/app/config/config.yaml:ro
+      - ./storage/:/app/storage/

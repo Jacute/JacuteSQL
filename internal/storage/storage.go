@@ -144,7 +144,7 @@ func (s *Storage) Exec(str string) (string, error) {
 		if err := s.blockTables([]string{tableName}); err != nil {
 			return "", fmt.Errorf("error: " + err.Error())
 		}
-		err := s.Insert(tableName, valuesSplitted)
+		id, err := s.Insert(tableName, valuesSplitted)
 		if err != nil {
 			if errors.Is(err, ErrIncorrectNumberOfColumns) {
 				return "", fmt.Errorf("error: Incorrect number of columns")
@@ -153,7 +153,7 @@ func (s *Storage) Exec(str string) (string, error) {
 		}
 		s.unBlockTables([]string{tableName})
 
-		return "", nil
+		return id, nil
 	} else if deleteRegexp.Match([]byte(str)) {
 		matches := deleteRegexp.FindStringSubmatch(str)
 		tables := matches[1]
@@ -204,7 +204,7 @@ func (s *Storage) Exec(str string) (string, error) {
 }
 
 // Insert adds a new row to the table with given values
-func (s *Storage) Insert(table string, values []string) error {
+func (s *Storage) Insert(table string, values []string) (string, error) {
 	const op = "storage.Insert"
 	log := s.log.With(
 		slog.String("op", op),
@@ -214,13 +214,13 @@ func (s *Storage) Insert(table string, values []string) error {
 
 	tablePath := s.TablePathes.Get(table).(string)
 	if tablePath == "" {
-		return ErrIncorectTable
+		return "", ErrIncorectTable
 	}
 
 	// Validate columns count
 	schemaColumns, _ := s.Schema.Tables.Get(table).([]string)
 	if len(values) != len(schemaColumns)-1 {
-		return ErrIncorrectNumberOfColumns
+		return "", ErrIncorrectNumberOfColumns
 	}
 
 	// Read pk and add to the columns
@@ -231,7 +231,7 @@ func (s *Storage) Insert(table string, values []string) error {
 			"PK reading error",
 			slog.String("pkpath", pkPath),
 		)
-		return fmt.Errorf("%s: %w", op, err)
+		return "", fmt.Errorf("%s: %w", op, err)
 	}
 
 	id := strings.TrimSpace(string(idBytes))
@@ -241,7 +241,7 @@ func (s *Storage) Insert(table string, values []string) error {
 			"id isn't number",
 			slog.String("pkpath", pkPath),
 		)
-		return fmt.Errorf("%s: %w", op, err)
+		return "", fmt.Errorf("%s: %w", op, err)
 	}
 	values = append([]string{id}, values...)
 
@@ -251,7 +251,7 @@ func (s *Storage) Insert(table string, values []string) error {
 			"Sheets getting error",
 			prettylogger.Err(err),
 		)
-		return fmt.Errorf("%s: %w", op, err)
+		return "", fmt.Errorf("%s: %w", op, err)
 	}
 
 	for _, sheetName := range sheets {
@@ -264,7 +264,7 @@ func (s *Storage) Insert(table string, values []string) error {
 				prettylogger.Err(err),
 				slog.String("sheetpath", sheetPath),
 			)
-			return fmt.Errorf("%s: %v", op, err)
+			return "", fmt.Errorf("%s: %v", op, err)
 		}
 		// If rowCount > tuples_limit, write to the next sheet
 		if rowCount < s.Schema.TuplesLimit {
@@ -275,7 +275,7 @@ func (s *Storage) Insert(table string, values []string) error {
 					prettylogger.Err(err),
 					slog.String("sheetpath", sheetPath),
 				)
-				return fmt.Errorf("%s: %v", op, err)
+				return "", fmt.Errorf("%s: %v", op, err)
 			}
 
 			err = os.WriteFile(pkPath, []byte(strconv.Itoa(idInt+1)), 0644)
@@ -284,10 +284,10 @@ func (s *Storage) Insert(table string, values []string) error {
 					"Error writing a new pk",
 					slog.String("pkpath", pkPath),
 				)
-				return err
+				return "", err
 			}
 
-			return nil
+			return id, nil
 		}
 	}
 	log.Info("Creating new sheet")
@@ -302,19 +302,18 @@ func (s *Storage) Insert(table string, values []string) error {
 			prettylogger.Err(err),
 			slog.String("sheetpath", newSheetPath),
 		)
-		return fmt.Errorf("%s: %v", op, err)
+		return "", fmt.Errorf("%s: %v", op, err)
 	}
-
 	err = os.WriteFile(pkPath, []byte(strconv.Itoa(idInt+1)), 0644)
 	if err != nil {
 		log.Error(
 			"Error writing a new pk",
 			slog.String("pkpath", pkPath),
 		)
-		return err
+		return "", err
 	}
 
-	return nil
+	return id, nil
 }
 
 func (s *Storage) Select(fields []string, tables []string, condition string) (*mysl.MySl[*mysl.MySl[string]], error) {
